@@ -1,0 +1,64 @@
+[
+    {
+        "id": 1,
+        "title": "some text1",
+        "country": "Jamaica",
+        "content": "some content",
+        "category": "Braid",
+        "image1": "http://destinywig.com/wp-content/uploads/2021/08/Weekly.jpg",
+        "image2":"http://destinywig.com/wp-content/uploads/2021/08/weekly9.jpg"
+
+        
+        
+    },
+    {
+        "id": 2,
+        "title": "some text2",
+        "country": "Jamaica",
+        "content": "some content",
+        "category": "Braid",
+        "image1": "http://destinywig.com/wp-content/uploads/2021/08/Weekly.jpg",
+        "image2":"http://destinywig.com/wp-content/uploads/2021/08/weekly9.jpg"
+
+    },
+    {
+        "id": 3,
+        "title": "some text3",
+        "country": "Jamaica",
+        "content": "some content",
+        "category": "Braid",
+        "image1": "http://destinywig.com/wp-content/uploads/2021/08/Weekly.jpg",
+        "image2":"http://destinywig.com/wp-content/uploads/2021/08/weekly9.jpg"
+
+    },
+    {
+        "id": 4,
+        "title": "some text4",
+        "country": "Jamaica",
+        "content": "some content",
+        "category": "Braid",
+        "image1": "http://destinywig.com/wp-content/uploads/2021/08/Weekly.jpg",
+        "image2":"http://destinywig.com/wp-content/uploads/2021/08/weekly9.jpg"
+
+    },
+    {
+        "id": 5,
+        "title": "some text5",
+        "country": "Jamaica",
+        "content": "some content",
+        "category": "Braid",
+        "image1": "http://destinywig.com/wp-content/uploads/2021/08/Weekly.jpg",
+        "image2":"http://destinywig.com/wp-content/uploads/2021/08/weekly9.jpg"
+
+    },
+    {
+        "id": 6,
+        "title": "some text6",
+        "country": "Jamaica",
+        "content": "some content",
+        "category": "Braid",
+        "image1": "http://destinywig.com/wp-content/uploads/2021/08/Weekly.jpg",
+        "image2":"http://destinywig.com/wp-content/uploads/2021/08/weekly9.jpg"
+
+    }
+]
