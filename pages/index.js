@@ -10,9 +10,9 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>BijouxPeoplesChoice</title>
-        <meta name="description" content="Bijoux Peoples Choice" />
-        <link rel="icon" href="https://sopranohair.com/t/pe/" />
+        <title>Bijoux Peoples Choice</title>
+        <meta name="description" content="Caribbean Hair Style Competiton" />
+       
       </Head>
       
       <main className={styles.main}>
