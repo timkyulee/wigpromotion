@@ -31,7 +31,7 @@ function DrawerCom() {
                     </ListItem>
                     <ListItem divider button>
                         <ListItemIcon>
-                            <Link href="./weave"><a><ListItemText>WEAVE</ListItemText></a></Link>
+                            <Link href="./weaving"><a><ListItemText>WEAVE</ListItemText></a></Link>
                         </ListItemIcon>
                     </ListItem>
                     <ListItem divider button>
