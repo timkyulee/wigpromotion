@@ -45,11 +45,11 @@ function Navbar() {
         <div>
             <AppBar color='tranparent'>
                 <Toolbar>
-                    <Link href="/"><a>
+                  
                     <Typography>
                        Bijoux People's Choice
-                    </Typography></a>
-                    </Link>
+                    </Typography>
+                   
                     {isMatch ? <DrawerCom />:
                       <div>
                       <Tabs
