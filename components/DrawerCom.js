@@ -2,6 +2,7 @@ import { colors, Drawer, IconButton, List, ListItem, ListItemIcon, ListItemText,
 import MenuIcon from '@material-ui/icons/Menu';
 import React from 'react';
 import { useState } from 'react';
+import Link from 'next/link';
 
 
 const useStyles = makeStyles(theme => ({
@@ -25,24 +26,20 @@ function DrawerCom() {
                 <List>
                     <ListItem divider button>
                         <ListItemIcon>
-                            <ListItemText>Home</ListItemText>
+                            <Link href="./braid"><a><ListItemText>BRAID </ListItemText></a></Link>
                         </ListItemIcon>
                     </ListItem>
                     <ListItem divider button>
                         <ListItemIcon>
-                            <ListItemText>Home</ListItemText>
+                            <Link href="./weave"><a><ListItemText>WEAVE</ListItemText></a></Link>
                         </ListItemIcon>
                     </ListItem>
                     <ListItem divider button>
                         <ListItemIcon>
-                            <ListItemText>Home</ListItemText>
+                            <Link href="./fantasy" ><a><ListItemText>FANTASY</ListItemText></a></Link>
                         </ListItemIcon>
                     </ListItem>
-                    <ListItem divider button>
-                        <ListItemIcon>
-                            <ListItemText>Home</ListItemText>
-                        </ListItemIcon>
-                    </ListItem>
+                   
                 </List>
             </Drawer>
             <IconButton className={cla.menuIconContainer} onClick={() =>setOpenDrawer(!openDrawer)}>

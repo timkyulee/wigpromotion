@@ -45,9 +45,11 @@ function Navbar() {
         <div>
             <AppBar color='tranparent'>
                 <Toolbar>
+                    <Link href="pc.ghanabraid.com">
                     <Typography>
-                        Beauty Elements
+                        <a>Beauty Elements</a>
                     </Typography>
+                    </Link>
                     {isMatch ? <DrawerCom />:
                       <div>
                       <Tabs
