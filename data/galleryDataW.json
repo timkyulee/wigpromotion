@@ -71,18 +71,7 @@
             ]
         },
        
-       
-        {
-            "id": "33",
-            "name": "Dionne Dianna Grannum",
-            "country": "BARBADOS",
-            "category": "WEAVE",
-            "Image": [
-                {
-                    "Links": "https://sopranohair.com/gallery2/DionneDiannaGrannum.jpeg"
-                }
-            ]
-        },
+
       
         {
             "id": "36",
@@ -208,26 +197,7 @@
             ]
         },
       
-        {
-            "id": "106",
-            "name": "Romario Strachan",
-            "country": "JAMAICA",
-            "category": "WEAVE",
-            "Image": [
-                {
-                    "Links": "https://sopranohair.com/gallery2/RomarioStrachan1.mp4"
-                },
-                {
-                    "Links": "https://sopranohair.com/gallery2/RomarioStrachan2.mp4"
-                },
-                {
-                    "Links": "https://sopranohair.com/gallery2/RomarioStrachan3.mp4"
-                },
-                {
-                    "Links": "https://sopranohair.com/gallery2/RomarioStrachan4.mp4"
-                }
-            ]
-        },
+  
         {
             "id": "107",
             "name": "Rushan Flowers Reyes",
@@ -287,20 +257,6 @@
             ]
         },
     
-     
-       
-        {
-            "id": "128",
-            "name": "Shelly-ann Miller",
-            "country": "JAMAICA",
-            "Image": [
-                {
-                    "Links": "https://sopranohair.com/gallery2/Shelly-annMiller.mp4"
-                }
-            ]
-        },
-      
-       
       
         {
             "id": "133",
@@ -320,21 +276,6 @@
             ]
         },
        
-      
-      
-        {
-            "id": "147",
-            "name": "Tavion Bogle",
-            "country": "JAMAICA",
-            "Image": [
-                {
-                    "Links": "https://sopranohair.com/gallery2/TavionBogle1.mp4"
-                },
-                {
-                    "Links": "https://sopranohair.com/gallery2/TavionBogle2.mp4"
-                }
-            ]
-        },
       
         {
             "id": "150",

@@ -1,14 +1,5 @@
 [
-        {
-            "id": "1",
-            "name": "Aaliyah Clemmings",
-            "country": "JAMAICA",
-            "category": "BRAID",
-            "Image": [
-               
-            ]
-        },
-     
+       
         {
             "id": "3",
             "name": "Akeela Riley",
@@ -491,20 +482,7 @@
                 }
             ]
         },
-        {
-            "id": "52",
-            "name": "Kashema storer",
-            "country": "JAMAICA",
-            "category": "BRAID",
-            "Image": [
-                {
-                    "Links": "https://sopranohair.com/gallery2/KashemaStorer1.mp4"
-                },
-                {
-                    "Links": "https://sopranohair.com/gallery2/KashemaStorer2.mp4"
-                }
-            ]
-        },
+
       
         {
             "id": "54",
@@ -1306,17 +1284,7 @@
                 }
             ]
         },
-        {
-            "id": "128",
-            "name": "Shelly-ann Miller",
-            "country": "JAMAICA",
-            "Image": [
-                {
-                    "Links": "https://sopranohair.com/gallery2/Shelly-annMiller.mp4"
-                }
-            ]
-        },
-      
+
        
         {
             "id": "131",
@@ -1360,17 +1328,7 @@
                 }
             ]
         },
-        {
-            "id": "135",
-            "name": "Sherrine Chambers",
-            "country": "JAMAICA",
-            "category": "BRAID",
-            "Image": [
-                {
-                    "Links": "https://sopranohair.com/gallery2/SherrineChambers.mp4"
-                }
-            ]
-        },
+
 
         {
             "id": "137",
@@ -1514,19 +1472,7 @@
             ]
         },
         
-        {
-            "id": "147",
-            "name": "Tavion Bogle",
-            "country": "JAMAICA",
-            "Image": [
-                {
-                    "Links": "https://sopranohair.com/gallery2/TavionBogle1.mp4"
-                },
-                {
-                    "Links": "https://sopranohair.com/gallery2/TavionBogle2.mp4"
-                }
-            ]
-        },
+ 
         {
             "id": "148",
             "name": "Tedecia Webbfuller",
@@ -1605,18 +1551,7 @@
         },
        
        
-        {
-            "id": "155",
-            "name": "Whitney Samuels",
-            "country": "JAMAICA",
-            "category": "BRAID",
-            "Image": [
-                {
-                    "Links": "https://sopranohair.com/gallery2/WHITNEYSAMUELS.mp4"
-                }
-            ]
-        },
-       
+
         {
             "id": "157",
             "name": "Zennisha Richard",

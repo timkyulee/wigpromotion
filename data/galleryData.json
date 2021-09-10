@@ -1,13 +1,5 @@
 [
-        {
-            "id": "1",
-            "name": "Aaliyah Clemmings",
-            "country": "JAMAICA",
-            "category": "BRAID",
-            "Image": [
-               
-            ]
-        },
+
         {
             "id": "2",
             "name": "Abigail Harry",
@@ -798,20 +790,7 @@
                 }
             ]
         },
-        {
-            "id": "52",
-            "name": "Kashema storer",
-            "country": "JAMAICA",
-            "category": "BRAID",
-            "Image": [
-                {
-                    "Links": "https://sopranohair.com/gallery2/KashemaStorer1.mp4"
-                },
-                {
-                    "Links": "https://sopranohair.com/gallery2/KashemaStorer2.mp4"
-                }
-            ]
-        },
+
         {
             "id": "53",
             "name": "Kellian Hilton",
@@ -1684,16 +1663,16 @@
             "category": "FANTASY",
             "Image": [
                 {
-                    "Links": "https://sopranohair.com/gallery2/Renae’Simmonds1.jpeg"
+                    "Links": "https://sopranohair.com/gallery2/RenaeSimmonds1.jpeg"
                 },
                 {
-                    "Links": "https://sopranohair.com/gallery2/Renae’Simmonds2.jpeg"
+                    "Links": "https://sopranohair.com/gallery2/RenaeSimmonds2.jpeg"
                 },
                 {
-                    "Links": "https://sopranohair.com/gallery2/Renae’Simmonds3.jpeg"
+                    "Links": "https://sopranohair.com/gallery2/RenaeSimmonds3.jpeg"
                 },
                 {
-                    "Links": "https://sopranohair.com/gallery2/Renae’Simmonds4.jpeg"
+                    "Links": "https://sopranohair.com/gallery2/RenaeSimmonds4.jpeg"
                 }
             ]
         },
@@ -1712,26 +1691,7 @@
                 }
             ]
         },
-        {
-            "id": "106",
-            "name": "Romario Strachan",
-            "country": "JAMAICA",
-            "category": "WEAVE",
-            "Image": [
-                {
-                    "Links": "https://sopranohair.com/gallery2/RomarioStrachan1.mp4"
-                },
-                {
-                    "Links": "https://sopranohair.com/gallery2/RomarioStrachan2.mp4"
-                },
-                {
-                    "Links": "https://sopranohair.com/gallery2/RomarioStrachan3.mp4"
-                },
-                {
-                    "Links": "https://sopranohair.com/gallery2/RomarioStrachan4.mp4"
-                }
-            ]
-        },
+
         {
             "id": "107",
             "name": "Rushan Flowers Reyes",
@@ -2047,16 +2007,7 @@
                 }
             ]
         },
-        {
-            "id": "128",
-            "name": "Shelly-ann Miller",
-            "country": "JAMAICA",
-            "Image": [
-                {
-                    "Links": "https://sopranohair.com/gallery2/Shelly-annMiller.mp4"
-                }
-            ]
-        },
+
       
        
         {
@@ -2114,17 +2065,6 @@
                 },
                 {
                     "Links": "https://sopranohair.com/gallery2/ShermalonSamuel2.jpeg"
-                }
-            ]
-        },
-        {
-            "id": "135",
-            "name": "Sherrine Chambers",
-            "country": "JAMAICA",
-            "category": "BRAID",
-            "Image": [
-                {
-                    "Links": "https://sopranohair.com/gallery2/SherrineChambers.mp4"
                 }
             ]
         },
@@ -2328,19 +2268,7 @@
                 }
             ]
         },
-        {
-            "id": "147",
-            "name": "Tavion Bogle",
-            "country": "JAMAICA",
-            "Image": [
-                {
-                    "Links": "https://sopranohair.com/gallery2/TavionBogle1.mp4"
-                },
-                {
-                    "Links": "https://sopranohair.com/gallery2/TavionBogle2.mp4"
-                }
-            ]
-        },
+
         {
             "id": "148",
             "name": "Tedecia Webbfuller",
@@ -2492,17 +2420,7 @@
                 }
             ]
         },
-        {
-            "id": "155",
-            "name": "Whitney Samuels",
-            "country": "JAMAICA",
-            "category": "BRAID",
-            "Image": [
-                {
-                    "Links": "https://sopranohair.com/gallery2/WHITNEYSAMUELS.mp4"
-                }
-            ]
-        },
+ 
         {
             "id": "156",
             "name": "Yvonneisha Cooper",
