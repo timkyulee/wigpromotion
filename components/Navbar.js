@@ -46,7 +46,7 @@ function Navbar() {
             <AppBar color='tranparent'>
                 <Toolbar>
                   
-                    <Typography>
+                    <Typography variant='h2'>
                        Bijoux People's Choice
                     </Typography>
                    
