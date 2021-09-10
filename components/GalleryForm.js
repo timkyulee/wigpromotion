@@ -15,15 +15,14 @@ const useStyles = makeStyles((theme) =>({
       media: {
         height: '420px',
         width: '300px',
-        display: 'flex'
-       
+        display: 'flex',
       },
      img: {
         
         border: '1px solid #ddd',
         borderRadius: '4px',
         padding: '2px',
-        objectFit: 'contain'
+        objectFit: 'cover'
         
        
       },
