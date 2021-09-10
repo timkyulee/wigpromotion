@@ -21,9 +21,7 @@ const useStyles = makeStyles(theme => ({
       marginLeft: '600px'
         
     }
-}));
-
-    
+})); 
 
 function Navbar() {
     const cla = useStyles();
@@ -45,9 +43,8 @@ function Navbar() {
         <div>
             <AppBar color='tranparent'>
                 <Toolbar>
-                  
-                    <Typography variant='h2'>
-                       Bijoux People's Choice
+                    <Typography variant='h5'>
+                       Bijoux Peoples Choice
                     </Typography>
                    
                     {isMatch ? <DrawerCom />:
