@@ -47,7 +47,7 @@ function Navbar() {
                 <Toolbar>
                     <Link href="/"><a>
                     <Typography>
-                       <h2> Bijoux People's Choice</h2>
+                       Bijoux People's Choice
                     </Typography></a>
                     </Link>
                     {isMatch ? <DrawerCom />:
