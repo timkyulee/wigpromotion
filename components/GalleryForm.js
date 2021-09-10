@@ -1,32 +1,39 @@
 import { Card, CardContent, CardHeader, CardActions, Avatar, IconButton, Typography, CardMedia } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core';
 import React from 'react';
-import { useState } from 'react';
-import { Link } from '@material-ui/core';
 import Image from 'next/dist/client/image';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import FacebookIcon from '@material-ui/icons/Facebook';
-import Caroucel from './Caroucel';
+import Carousel, { CarouselItem} from '../comp/Carousel';
 
 
 
 const useStyles = makeStyles((theme) =>({
     root: {
-        maxWidth: 345,
+        maxWidth: 450,
       },
       media: {
-        height: '300px',
-        width: '400px',
+        height: '420px',
+        width: '300px',
         display: 'flex'
        
       },
-      media2: {
-        height: '300px',
-        width: '200px',
+     img: {
+        
+        border: '1px solid #ddd',
+        borderRadius: '4px',
+        padding: '2px',
+        objectFit: 'contain'
+        
        
       },
       card: {
-          margin: '12px'
+          margin: '12px',
+          height: '620px'
+      },
+      content: {
+          
+
       },
       expand: {
         transform: 'rotate(0deg)',
@@ -48,29 +55,30 @@ function GalleryForm(props) {
  
     return (
         <div>
-          <Card className={cla.card}>
+          <Card className={cla.card}  >
               <CardHeader
                avatar={
                    <Avatar aria-label='coutry' className={cla.avatar}>
-                      C
+                      P
                    </Avatar>
                }
-                subheader={props.country}
-                title={props.category}
+                subheader={props.category}
+                title={props.country}
                
               >
               </CardHeader>
               <div className={cla.media}>
+              <Carousel>
+              {props.img.map((pic) =>(
                
-             <Caroucel />
-             
+                 <CarouselItem key={props.key}><Image src={pic.Links} className={cla.img} width='300px' height='400px' alt={pic.Links}/></CarouselItem>
+               
+              ))}
+                </Carousel>
             </div>
-              <CardContent>
-                <p>{props.name}</p>
-              
-                <p>{props.content}</p>
-              
-                
+              <CardContent className={cla.content}>
+                <Typography variant="h6">{props.name}</Typography>
+                <Typography variant="h7">{props.content}</Typography>
                 <p><InstagramIcon/> <FacebookIcon/></p>
               </CardContent>
               <CardActions>

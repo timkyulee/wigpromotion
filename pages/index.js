@@ -2,8 +2,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css';
 import Navbar from '../components/Navbar';
-import Gallery1 from '../components/Gallery1';
-import Caroucel from '../components/Caroucel';
+import GalleryAll from '../components/GalleryAll';
+
 
 
 export default function Home() {
@@ -19,7 +19,7 @@ export default function Home() {
 
         <Navbar />
        
-        <Gallery1 />
+        <GalleryAll />
         
       </main>
 

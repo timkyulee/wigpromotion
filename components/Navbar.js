@@ -2,6 +2,7 @@ import React from 'react';
 import { useTheme, Menu, Button, useMediaQuery, menuList, makeStyles, menuItem, AppBar, Toolbar, Typography, Box, Tabs, Tab } from '@material-ui/core';
 import DrawerCom from './DrawerCom';
 import { useState } from 'react';
+import Link from 'next/link';
 const useStyles = makeStyles(theme => ({
     icons:{
         fontSize: '1.4rem',
@@ -55,9 +56,9 @@ function Navbar() {
                       className={cla.tabposition}
                       centered
                     >
-                      <Tab label="Item One" />
-                      <Tab label="Item Two" />
-                      <Tab label="Item Three" />
+                     <Link href="/braid"><a> <Tab label="BRAID STYLE" /></a></Link>
+                     <Link href="/weaving"><a><Tab label="WEAVE STYLE" /></a></Link>
+                     <Link href="/fantasy"><a><Tab label="FANTASY STYLE" /></a></Link>
                     </Tabs>
                     </div>
                     }
