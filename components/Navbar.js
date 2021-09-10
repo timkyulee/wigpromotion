@@ -18,7 +18,7 @@ const useStyles = makeStyles(theme => ({
         },
     },
     tabposition: {
-      marginLeft: '600px'
+      marginLeft: '500px'
         
     }
 })); 
@@ -43,7 +43,7 @@ function Navbar() {
         <div>
             <AppBar color='tranparent'>
                 <Toolbar>
-                    <Typography variant='h5'>
+                    <Typography variant='h6'>
                        Bijoux Peoples Choice
                     </Typography>
                    

@@ -7,7 +7,7 @@ import Link from 'next/link';
 
 const useStyles = makeStyles(theme => ({
     menuIconContainer: {
-        marginLeft: '500%', 
+        marginLeft: '100%', 
         colors: 'white',
         fontSize: 'large'
     }
