@@ -3,6 +3,7 @@ import { useTheme, Menu, Button, useMediaQuery, menuList, makeStyles, menuItem, 
 import DrawerCom from './DrawerCom';
 import { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/dist/client/image';
 const useStyles = makeStyles(theme => ({
     icons:{
         fontSize: '1.4rem',
@@ -43,9 +44,10 @@ function Navbar() {
         <div>
             <AppBar color='tranparent'>
                 <Toolbar>
-                    <Typography variant='h6'>
+                    {/* <Typography variant='h6'>
                        Bijoux Peoples Choice
-                    </Typography>
+                    </Typography> */}
+                    <Image src="https://sopranohair.com/gallery2/LOGO.png" alt='logo' width='273px' height="80px"/>
                    
                     {isMatch ? <DrawerCom />:
                       <div>

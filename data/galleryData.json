@@ -8,10 +8,7 @@
             "Image": [
                 {
                     "Links": "https://sopranohair.com/gallery2/AbigailHarry1.jpeg"
-                },
-                {
-                    "Links": "https://sopranohair.com/gallery2/AbigailHarry1.mp4"
-                },
+                },   
                 {
                     "Links": "https://sopranohair.com/gallery2/AbigailHarry2.jpeg"
                 },
@@ -26,9 +23,33 @@
                 },
                 {
                     "Links": "https://sopranohair.com/gallery2/AbigailHarry6.jpeg"
+                },
+                {
+                    "Links": "https://sopranohair.com/gallery2/AbigailHarry1.mp4"
                 }
             ]
         },
+       
+        {
+            "id": "102",
+            "name": "3X Ghana Braid",
+            "country": "Bijoux Hair Commercial",
+            "category": "BRAID",
+            "Image": [ {
+                "Links": "https://sopranohair.com/gallery2/BANNER-3X-Ghana-2020-Color-Poster.jpg"
+            }]
+        },
+       
+        {
+            "id": "105",
+            "name": "Solo Green Short Curl",
+            "country": "Bijoux Hair Commercial",
+            "category": "Weave hair",
+            "Image": [ {
+                "Links": "https://sopranohair.com/gallery2/SOLO-GREEN-CURL-POSTER.jpg"
+            }]
+        },
+
         {
             "id": "3",
             "name": "Akeela Riley",
@@ -267,6 +288,15 @@
                     "Links": "https://sopranohair.com/gallery2/CherelleBoneo4.jpeg"
                 }
             ]
+        },
+        {
+            "id": "101",
+            "name": "Ghana Twist Braid",
+            "country": "Bijoux Hair Commercial",
+            "category": "BRAID",
+            "Image": [ {
+                "Links": "https://sopranohair.com/gallery2/3X-Ghana-PassionTwist-Poster.jpg"
+            }]
         },
         {
             "id": "21",
@@ -552,6 +582,20 @@
             ]
         },
         {
+            "id": "101",
+            "name": "Esther Chin",
+            "country": "JAMAICA",
+            "category": "Fantasy",
+            "Image": [
+                {
+                    "Links": "https://sopranohair.com/gallery2/EstherChin1.jpeg"
+                },
+                {
+                    "Links": "https://sopranohair.com/gallery2/EstherChin2.jpeg"
+                }
+            ]
+        },
+        {
             "id": "38",
             "name": "Fontanette Whittingham",
             "country": "JAMAICA",
@@ -695,6 +739,17 @@
             ]
         },
         {
+            "id": "82",
+            "name": "Jody Balckwood",
+            "country": "JAMAICA",
+            "category": "BRAID",
+            "Image": [
+                {
+                    "Links": "https://sopranohair.com/gallery2/MyeeshaWelcome.jpeg"
+                }
+            ]
+        },
+        {
             "id": "46",
             "name": "Joycilyn Wallace",
             "country": "JAMAICA",
@@ -743,6 +798,15 @@
                     "Links": "https://sopranohair.com/gallery2/KADIANWARREN.jpg"
                 }
             ]
+        },
+        {
+            "id": "104",
+            "name": "Brazilian Pink Bundle",
+            "country": "Bijoux Hair Commercial",
+            "category": "Brazilian Hair",
+            "Image": [ {
+                "Links": "https://sopranohair.com/gallery2/Pink-Poster-New-01.jpg"
+            }]
         },
         {
             "id": "50",
@@ -1283,6 +1347,15 @@
             ]
         },
         {
+            "id": "105",
+            "name": "Solo Green Short Curl",
+            "country": "Bijoux Hair Commercial",
+            "category": "Weave hair",
+            "Image": [ {
+                "Links": "https://sopranohair.com/gallery2/SOLO-GREEN-CURL-POSTER.jpg"
+            }]
+        },
+        {
             "id": "80",
             "name": "Miriam Lorenzo Altagracia",
             "country": "ST KITTS",
@@ -1322,17 +1395,7 @@
                 }
             ]
         },
-        {
-            "id": "82",
-            "name": "Myeesha Welcome",
-            "country": "JAMAICA",
-            "category": "BRAID",
-            "Image": [
-                {
-                    "Links": "https://sopranohair.com/gallery2/MyeeshaWelcome.jpeg"
-                }
-            ]
-        },
+       
         {
             "id": "83",
             "name": "Naedine Foster",
@@ -1632,6 +1695,7 @@
                 }
             ]
         },
+       
       
         {
             "id": "102",

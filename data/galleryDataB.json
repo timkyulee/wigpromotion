@@ -9,6 +9,15 @@
                 "Links": "https://sopranohair.com/gallery2/AkeelaRiley1.jpeg"
             }]
         },
+        {
+            "id": "101",
+            "name": "Ghana Twist Braid",
+            "country": "Bijoux Hair Commercial",
+            "category": "BRAID",
+            "Image": [ {
+                "Links": "https://sopranohair.com/gallery2/3X-Ghana-PassionTwist-Poster.jpg"
+            }]
+        },
   
         {
             "id": "5",
@@ -394,6 +403,17 @@
             "Image": [
                 {
                     "Links": "https://sopranohair.com/gallery2/JoycilynWallace.jpeg"
+                }
+            ]
+        },
+        {
+            "id": "82",
+            "name": "Jody Balckwood",
+            "country": "JAMAICA",
+            "category": "BRAID",
+            "Image": [
+                {
+                    "Links": "https://sopranohair.com/gallery2/MyeeshaWelcome.jpeg"
                 }
             ]
         },
@@ -827,17 +847,7 @@
                 }
             ]
         },
-        {
-            "id": "82",
-            "name": "Myeesha Welcome",
-            "country": "JAMAICA",
-            "category": "BRAID",
-            "Image": [
-                {
-                    "Links": "https://sopranohair.com/gallery2/MyeeshaWelcome.jpeg"
-                }
-            ]
-        },
+       
         {
             "id": "83",
             "name": "Naedine Foster",

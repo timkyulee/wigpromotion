@@ -10,12 +10,12 @@ import Carousel, { CarouselItem} from '../comp/Carousel';
 
 const useStyles = makeStyles((theme) =>({
     root: {
-        maxWidth: 450,
+        maxWidth: 400,
       },
       media: {
-        height: '420px',
+        height: '440px',
         width: '300px',
-        display: 'flex',
+        display: 'flex'
       },
      img: {
         
@@ -23,17 +23,13 @@ const useStyles = makeStyles((theme) =>({
         borderRadius: '4px',
         padding: '2px',
         objectFit: 'cover'
-        
-       
+      
       },
       card: {
           margin: '12px',
-          height: '620px'
+          height: '640px'
       },
-      content: {
-          
-
-      },
+    
       expand: {
         transform: 'rotate(0deg)',
         marginLeft: 'auto',
@@ -45,8 +41,13 @@ const useStyles = makeStyles((theme) =>({
         transform: 'rotate(180deg)',
       },
       avatar: {
-        backgroundColor: 'red',
+       width: '100px',
+       height: '43px',
+     
       },
+      title: {
+        color: 'red'
+      }
 }));
 
 function GalleryForm(props) {
@@ -57,20 +58,19 @@ function GalleryForm(props) {
           <Card className={cla.card}  >
               <CardHeader
                avatar={
-                   <Avatar aria-label='coutry' className={cla.avatar}>
+                   <Avatar aria-label='coutry' variant={'rounded'}  className={cla.avatar} src='https://sopranohair.com/gallery2/3xGhanalogo.png'>
                       P
                    </Avatar>
                }
                 subheader={props.category}
                 title={props.country}
-               
               >
               </CardHeader>
               <div className={cla.media}>
               <Carousel>
               {props.img.map((pic) =>(
                
-                 <CarouselItem key={props.key}><Image src={pic.Links} className={cla.img} width='300px' height='400px' alt={pic.Links}/></CarouselItem>
+                 <CarouselItem key={props.key}><Image src={pic.Links} className={cla.img} width='300px' height='420px' alt={pic.Links}/></CarouselItem>
                
               ))}
                 </Carousel>

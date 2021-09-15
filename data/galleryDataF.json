@@ -29,6 +29,15 @@
                 }
             ]
         },
+        {
+            "id": "104",
+            "name": "Brazilian Pink Bundle",
+            "country": "Bijoux Hair Commercial",
+            "category": "Brazilian Hair",
+            "Image": [ {
+                "Links": "https://sopranohair.com/gallery2/Pink-Poster-New-01.jpg"
+            }]
+        },
       
         {
             "id": "6",
@@ -215,6 +224,21 @@
                 }
             ]
         },
+        {
+            "id": "101",
+            "name": "Esther Chin",
+            "country": "JAMAICA",
+            "category": "Fantasy",
+            "Image": [
+                {
+                    "Links": "https://sopranohair.com/gallery2/EstherChin1.jpeg"
+                },
+                {
+                    "Links": "https://sopranohair.com/gallery2/EstherChin2.jpeg"
+                }
+            ]
+        },
+       
         
         {
             "id": "44",
@@ -523,8 +547,7 @@
                 }
             ]
         },
-      
-       
+     
       
         {
             "id": "103",
