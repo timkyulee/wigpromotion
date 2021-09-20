@@ -28,7 +28,12 @@
             "country": "JAMAICA",
             "category": "BRAID/WEAVE",
             "Image": [
-                
+                {
+                    "Links": "https://sopranohair.com/gallery2/CHANTELABRAHAMS7.jpeg"
+                },
+                {
+                    "Links": "https://sopranohair.com/gallery2/CHANTELABRAHAMS.jpeg"
+                },
                 {
                     "Links": "https://sopranohair.com/gallery2/CHANTELABRAHAMS1.jpeg"
                 },
@@ -46,14 +51,9 @@
                 },
                 {
                     "Links": "https://sopranohair.com/gallery2/CHANTELABRAHAMS6.jpeg"
-                },
-                {
-                    "Links": "https://sopranohair.com/gallery2/CHANTELABRAHAMS7.jpeg"
-                },
-                {
-                    "Links": "https://sopranohair.com/gallery2/CHANTELABRAHAMS.jpeg"
                 }
-            ]
+               
+            ]    
         },
       
         {
@@ -98,9 +98,7 @@
             "country": "BELIZE",
             "category": "BRAID/WEAVE",
             "Image": [
-                {
-                    "Links": "https://sopranohair.com/gallery2/ElraElaineFlores1.jpg"
-                },
+               
                 {
                     "Links": "https://sopranohair.com/gallery2/ElraElaineFlores2.jpg"
                 },
@@ -109,6 +107,9 @@
                 },
                 {
                     "Links": "https://sopranohair.com/gallery2/ElraElaineFlores4.jpg"
+                },
+                {
+                    "Links": "https://sopranohair.com/gallery2/ElraElaineFlores1.jpg"
                 }
             ]
         },
@@ -206,9 +207,7 @@
             "country": "BELIZE",
             "category": "BRAID/WEAVE",
             "Image": [
-                {
-                    "Links": "https://sopranohair.com/gallery2/RushanFlowersReyes1.jpeg"
-                },
+               
                 {
                     "Links": "https://sopranohair.com/gallery2/RushanFlowersReyes2.jpeg"
                 },
@@ -217,6 +216,9 @@
                 },
                 {
                     "Links": "https://sopranohair.com/gallery2/RushanFlowersReyes4.jpeg"
+                },
+                {
+                    "Links": "https://sopranohair.com/gallery2/RushanFlowersReyes1.jpeg"
                 }
             ]
         },
@@ -228,11 +230,12 @@
             "country": "BARBADOS",
             "category": "BRAID/WEAVE",
             "Image": [
-                {
-                    "Links": "https://sopranohair.com/gallery2/SamanthaEdwards1.jpeg"
-                },
+               
                 {
                     "Links": "https://sopranohair.com/gallery2/SamanthaEdwards2.jpeg"
+                },
+                {
+                    "Links": "https://sopranohair.com/gallery2/SamanthaEdwards1.jpeg"
                 }
             ]
         },
