@@ -28,9 +28,7 @@
             "country": "JAMAICA",
             "category": "BRAID/WEAVE",
             "Image": [
-                {
-                    "Links": "https://sopranohair.com/gallery2/CHANTELABRAHAMS7.jpeg"
-                },
+               
                 {
                     "Links": "https://sopranohair.com/gallery2/CHANTELABRAHAMS.jpeg"
                 },
@@ -51,6 +49,9 @@
                 },
                 {
                     "Links": "https://sopranohair.com/gallery2/CHANTELABRAHAMS6.jpeg"
+                },
+                {
+                    "Links": "https://sopranohair.com/gallery2/CHANTELABRAHAMS7.jpeg"
                 }
                
             ]    
