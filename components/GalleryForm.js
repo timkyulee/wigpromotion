@@ -5,29 +5,30 @@ import Image from 'next/dist/client/image';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import Carousel, { CarouselItem} from '../comp/Carousel';
+import { Box, height } from '@mui/system';
+import { Link, stepClasses } from '@mui/material';
 
 
 
 const useStyles = makeStyles((theme) =>({
     root: {
-        maxWidth: 400,
+        maxWidth: 600,
       },
-      media: {
-        height: '440px',
-        width: '300px',
-        display: 'flex'
-      },
+     
      img: {
         
         border: '1px solid #ddd',
         borderRadius: '4px',
         padding: '2px',
-        objectFit: 'cover'
-      
+        objectFit: 'cover',
+        height: '800px'
       },
       card: {
-          margin: '12px',
-          height: '640px'
+          margin: '10px',
+          height: '800px',
+          display: 'flex',
+          flexDirection: 'column',
+          backgroundColor: '#000'
       },
     
       expand: {
@@ -42,12 +43,46 @@ const useStyles = makeStyles((theme) =>({
       },
       avatar: {
        width: '100px',
-       height: '43px',
-     
+       height: '34px',
+       objectFit: 'contain',
+       marginLeft: '7px'
       },
       title: {
         color: 'red'
-      }
+      },
+      header: {
+        backgroundColor: '#e1d9d9',
+        fontWeight: 'bold'
+      },
+      headbox: {
+        display: 'flex',
+        flexDirection: 'row',
+        backgroundColor: '#000',
+        height: '35px'
+      },
+      headletter: {
+        
+        fontSize: '1.3rem',
+        marginLeft: '25px',
+        marginTop: '5px',
+        fontWeight: 'bolder',
+        color: 'white'
+      },
+      headletter2: {
+        fontSize: '1rem',
+        marginLeft: 'auto',
+        marginRight: '10px',
+        marginTop: '8px',
+        fontWeight: 'bolder',
+        color: 'white'
+      },
+      headsub: {
+        color: 'white'
+      },
+      zoom: {
+         transform: 'scale(1.5)',
+      },
+      
 }));
 
 function GalleryForm(props) {
@@ -56,33 +91,32 @@ function GalleryForm(props) {
     return (
         <div>
           <Card className={cla.card}  >
-              <CardHeader
+              {/* <CardHeader
                avatar={
-                   <Avatar aria-label='coutry' variant={'rounded'}  className={cla.avatar} src='https://sopranohair.com/gallery2/3xGhanalogo.png'>
+                   <Avatar aria-label='coutry' variant={'rounded'}  className={cla.avatar} src='https://sopranohair.com/wig/DESTINY.png'>
                       P
                    </Avatar>
                }
-                subheader={props.category}
-                title={props.country}
+                title='Brazilian Wet & Wavy Full Lace Wig'
+               className={cla.header}
+            
               >
-              </CardHeader>
-              <div className={cla.media}>
-              <Carousel>
-              {props.img.map((pic) =>(
-               
-                 <CarouselItem key={props.key}><Image src={pic.Links} className={cla.img} width='300px' height='420px' alt={pic.Links}/></CarouselItem>
-               
-              ))}
-                </Carousel>
-            </div>
-              <CardContent className={cla.content}>
-                <Typography variant="h6">{props.name}</Typography>
-                <Typography variant="h7">{props.content}</Typography>
-                <p><InstagramIcon/> <FacebookIcon/></p>
-              </CardContent>
-              <CardActions>
-
-              </CardActions>
+              </CardHeader> */}
+              {/* <CardMedia
+                  component="img"
+                  height="770px"
+                  image="https://sopranohair.com/wig/13-1.jpg"
+                  alt="green iguana"
+                  className={cla.img}
+                /> */}
+          <Box className={cla.headbox}>
+          <img src='https://sopranohair.com/wig/DESTINY.png' alt='t' className={cla.avatar}/>
+          <Typography className={cla.headletter}>Brazilian Wet and Wavy Lace Wig</Typography>
+          <Typography className={cla.headletter2}>Page 25</Typography>
+          </Box>
+          <Link href='https://sopranohair.com/wig/13-1.jpg' target='_blank' >
+          <Image src='https://sopranohair.com/wig/13-1.jpg' alt='tt' width='580px' height='780px'objectFit='contain'/> </Link>
+           
           </Card>
         </div>
     )

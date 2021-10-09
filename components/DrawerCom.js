@@ -1,51 +1,129 @@
-import { colors, Drawer, IconButton, List, ListItem, ListItemIcon, ListItemText, makeStyles} from '@material-ui/core';
+import { Drawer, List, ListItem, ListItemIcon, ListItemText, makeStyles, Paper} from '@material-ui/core';
 import MenuIcon from '@material-ui/icons/Menu';
 import React from 'react';
 import { useState } from 'react';
 import Link from 'next/link';
+import { IconButton } from '@mui/material';
+import { ThemeProvider, createMuiTheme } from '@material-ui/core/styles';
+import { height } from '@mui/system';
 
 
-const useStyles = makeStyles(theme => ({
+
+const useStyles = makeStyles({
     menuIconContainer: {
-        marginLeft: '100%', 
-        colors: 'white',
-        fontSize: 'large'
-    }
-}))
+        marginLeft: '10px', 
+        fontSize: 'medium',
+       
+    },
+    iconButtonContainer: {
+        marginLeft: 'auto',
+        height: '800px'
+      },
+  
+      menuIconToggle: {
+        fontSize: '3rem',
+      },
+     menu: {
+         color: '#fff'
+      },
+    })
 
 function DrawerCom() {
-    const [openDrawer, setOpenDrawer] =  useState(false)
+    const [openDrawer, setOpenDrawer] =  useState(true)
     const cla = useStyles();
+    const theme = createMuiTheme({
+        palette: {
+            type: 'dark'
+        }
+    })
     return (
         <div>
+            <ThemeProvider theme={theme}>
+            <Paper>
             <Drawer
-                anchor='leftt'
-                onClose={() => setOpenDrawer(false)}
-                open={openDrawer}
-            >
-                <List>
-                    <ListItem divider button>
-                        <ListItemIcon>
-                            <Link href="./braid"><a><ListItemText>BRAID </ListItemText></a></Link>
-                        </ListItemIcon>
-                    </ListItem>
-                    <ListItem divider button>
-                        <ListItemIcon>
-                            <Link href="./weaving"><a><ListItemText>WEAVE</ListItemText></a></Link>
-                        </ListItemIcon>
-                    </ListItem>
-                    <ListItem divider button>
-                        <ListItemIcon>
-                            <Link href="./fantasy" ><a><ListItemText>FANTASY</ListItemText></a></Link>
-                        </ListItemIcon>
-                    </ListItem>
-                   
-                </List>
+            open={openDrawer}
+            onClose={()=> setOpenDrawer(false)}
+            anchor='left'
+            className={cla.drawerContainer}
+            >            <List>
+                <ListItem divider button>
+                    <ListItemIcon>
+                        <ListItemText>
+                            <Link href={'#'} underline='none'>Brazilian Wet n Wavy</Link>
+                        </ListItemText>
+                    </ListItemIcon>
+                </ListItem>   
+                <ListItem divider button>
+                    <ListItemIcon>
+                        <ListItemText>
+                            <Link href={'#'} color='#fff'>Brazilian Lace Wig</Link>
+                        </ListItemText>
+                    </ListItemIcon>
+                </ListItem>   
+                <ListItem divider button>
+                    <ListItemIcon>
+                        <ListItemText>
+                            <Link href={'#'}>Brazilian Wig</Link>
+                        </ListItemText>
+                    </ListItemIcon>
+                </ListItem>   
+                <ListItem divider button>
+                    <ListItemIcon>
+                        <ListItemText>
+                            <Link href={'#'}>Lace Wig</Link>
+                        </ListItemText>
+                    </ListItemIcon>
+                </ListItem>   
+                <ListItem divider button>
+                    <ListItemIcon>
+                        <ListItemText>
+                            <Link href={''}>Human Hair Wig</Link>
+                        </ListItemText>
+                    </ListItemIcon>
+                </ListItem>   
+                <ListItem divider button>
+                    <ListItemIcon>
+                        <ListItemText>
+                            <Link href={''}>Green Wig</Link>
+                        </ListItemText>
+                    </ListItemIcon>
+                </ListItem>   
+                <ListItem divider button>
+                    <ListItemIcon>
+                        <ListItemText>
+                            <Link href={''}>Wig</Link>
+                        </ListItemText>
+                    </ListItemIcon>
+                </ListItem>   
+                <ListItem divider button>
+                    <ListItemIcon>
+                        <ListItemText>
+                            <Link href={''}>Pop n Go</Link>
+                        </ListItemText>
+                    </ListItemIcon>
+                </ListItem>   
+                <ListItem divider button>
+                    <ListItemIcon>
+                        <ListItemText>
+                            <Link href={''}>Draw String</Link>
+                        </ListItemText>
+                    </ListItemIcon>
+                </ListItem>   
+                <ListItem divider button>
+                    <ListItemIcon>
+                        <ListItemText>
+                            <Link href={''}>DOME</Link>
+                        </ListItemText>
+                    </ListItemIcon>
+                </ListItem>   
+            </List>  
             </Drawer>
-            <IconButton className={cla.menuIconContainer} onClick={() =>setOpenDrawer(!openDrawer)}>
-             <MenuIcon/>
+            </Paper>
+            </ThemeProvider>
+            <IconButton onClick={setOpenDrawer} className={cla.menuIconContainer}>
+                <MenuIcon className={cla.menuIconToggle}/>
             </IconButton>
-        </div>
+        </div>   
     )
 }
 
