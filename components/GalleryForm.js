@@ -25,10 +25,10 @@ const useStyles = makeStyles((theme) =>({
       },
       card: {
           margin: '10px',
-          height: '800px',
+          height: '',
           display: 'flex',
           flexDirection: 'column',
-          backgroundColor: '#FFF'
+          
       },
     
       expand: {
@@ -62,14 +62,14 @@ const useStyles = makeStyles((theme) =>({
       },
       headletter: {
         
-        fontSize: '1.3rem',
-        marginLeft: '25px',
+        fontSize: '1rem',
+        marginLeft: 'auto',
         marginTop: '5px',
         fontWeight: 'bolder',
         color: 'white'
       },
       headletter2: {
-        fontSize: '1rem',
+        fontSize: '0.8rem',
         marginLeft: 'auto',
         marginRight: '10px',
         marginTop: '8px',
@@ -110,7 +110,7 @@ function GalleryForm(props) {
                   className={cla.img}
                 /> */}
           <Box className={cla.headbox}>
-          <img src='https://sopranohair.com/wig/DESTINY.png' alt='t' className={cla.avatar}/>
+          {/* <img src='https://sopranohair.com/wig/DESTINY.png' alt='t' className={cla.avatar}/> */}
           <Typography className={cla.headletter}>Brazilian Wet and Wavy Lace Wig</Typography>
           <Typography className={cla.headletter2}>Page 25</Typography>
           </Box>

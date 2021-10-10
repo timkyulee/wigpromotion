@@ -10,6 +10,9 @@ const useStyle = makeStyles({
     marginLeft: '80px',
     fontWeight: 'bolder'
   },
+  logo: {
+    width: '8 vw'
+  }
 
 });
 
@@ -28,7 +31,7 @@ export default function Navbar2() {
     <Box sx={{ flexGrow: 1}} className={cla.boxback}>
       <AppBar className={cla.letter}>
         <Toolbar>
-          <img src='https://sopranohair.com/wig/DESTINYLOGO1.png' alt='DESTINYLOGO' />
+          <img src='https://sopranohair.com/wig/DESTINYLOGO1.png' alt='DESTINYLOGO' className={cla.logo}/>
 
       {isMatch ? <DrawerCom /> : (
       <>
