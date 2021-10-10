@@ -3,10 +3,16 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css';
 import Navbar from '../components/Navbar2';
 import GalleryAll from '../components/GalleryAll';
-
-
+import { ThemeProvider, createMuiTheme } from '@material-ui/core/styles';
+import { Paper } from '@material-ui/core';
 
 export default function Home() {
+  
+    const theme = createMuiTheme({
+      palette: {
+          type: 'dark'
+      }
+  })
   return (
     <div className={styles.container}>
       <Head>
@@ -16,11 +22,13 @@ export default function Home() {
       </Head>
       
       <main className={styles.main}>
-
+      <ThemeProvider>
+        <Paper>
         <Navbar />
        
         <GalleryAll />
-        
+        </Paper>
+      </ThemeProvider>
       </main>
 
       <footer className={styles.footer}>

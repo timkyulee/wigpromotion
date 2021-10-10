@@ -29,7 +29,7 @@ const useStyles = makeStyles({
     })
 
 function DrawerCom() {
-    const [openDrawer, setOpenDrawer] =  useState(true)
+    const [openDrawer, setOpenDrawer] =  useState(false)
     const cla = useStyles();
     const theme = createMuiTheme({
         palette: {

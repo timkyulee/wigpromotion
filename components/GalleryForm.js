@@ -28,7 +28,7 @@ const useStyles = makeStyles((theme) =>({
           height: '800px',
           display: 'flex',
           flexDirection: 'column',
-          backgroundColor: '#000'
+          backgroundColor: '#FFF'
       },
     
       expand: {
