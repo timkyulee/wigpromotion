@@ -19,10 +19,20 @@ boxback: {
   backgroundColor: '#ccc'
 },
 title: {
-  fontSize: '25px',
+  fontSize: '30px',
   color: '#fff'
 },
 title2: {
+  fontSize: '18px',
+  color: '#fff',
+  textAlign: 'center',
+  margin:'0'
+},
+title3: {
+  fontSize: '20px',
+  color: '#fff'
+},
+title4: {
   fontSize: '15px',
   color: '#fff',
   textAlign: 'center',
@@ -47,10 +57,16 @@ export default function Navbar2() {
       <AppBar style={{ background: '#2E3B55' }} >
         <Toolbar>
         {/* <img src='https://sopranohair.com/wig/DESTINYLOGO1.png' alt='DESTINYLOGO' srcSet=''/> */}
-        <Box>
+       { isMatch ? 
+          (<Box>
+          <Typography className={cla.title3} >Destiny Wig Promotion </Typography>
+          <Typography className={cla.title4}>Beauty Elements(Oct 18 - 29 2021) </Typography>
+          </Box>)
+         : 
+        (<Box>
         <Typography className={cla.title} >Destiny Wig Promotion </Typography>
         <Typography className={cla.title2}>Beauty Elements(Oct 18 - 29 2021) </Typography>
-        </Box>
+        </Box> )}
 {isMatch ? <DrawerCom /> : (
 <>
 <div className={cla.menu}>
@@ -71,26 +87,8 @@ export default function Navbar2() {
 <tab label='Brazilian Wet n Wavy'><a href="#" className={cla.menuitem}>Draw String</a></tab>
 <tab label='Brazilian Wet n Wavy'><a href="#" className={cla.menuitem}>Dome</a></tab>
 
-
 </Tabs>
 </div>
-   {/* <Tabs
-      className={cla.tabsletter}
-      onChange={handleClickTab} 
-      indicatortColor='secondary'
-      aria-label="secondary tabs example" 
-      value={value}>
-     <Link href='/'> <Tab label='Brazilian Wet n Wavy'></Tab></Link>
-     <Link href='/'><Tab label='Brazilian Lace Wig'></Tab></Link>
-     <Link href='/'><Tab label='Brazilian Wig'></Tab></Link>
-     <Link href='/'><Tab label='Lace Wig'></Tab></Link>
-     <Link href='/'><Tab label='Human Hair Wig'></Tab></Link>
-     <Link href='/'> <Tab label='Green Wig'></Tab></Link>
-     <Link href='/'><Tab label='Wig'></Tab></Link>
-     <Link href='/'><Tab label='Pop n Go'></Tab></Link>
-     <Link href='/'><Tab label='Draw String'></Tab></Link>
-     <Link href='/'><Tab label='Dome'></Tab></Link>
-    </Tabs> */}
 </>
 )}
 
