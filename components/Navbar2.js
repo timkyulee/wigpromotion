@@ -49,7 +49,8 @@ logo: {
   fontSize: '30px',
   fontFamily: 'arial',
   color: '#fff',
-  marginRight: '15px'
+  marginRight: '15px',
+  textDecoration: 'none'
 },
 logopart: {
   display: 'flex',
@@ -64,7 +65,8 @@ logosmall: {
   fontSize: '28px',
   fontFamily: 'arial',
   color: '#fff',
-  marginRight: '15px'
+  marginRight: '15px',
+  textDecoration: 'none'
 },
 sublogosmall: {
   fontSize: '15px',
