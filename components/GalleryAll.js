@@ -19,7 +19,7 @@ function GalleryAll() {
          <Grid className={cla.root}>
             {Data.map(item => (
                 <GalleryForm  
-                    Photo
+                    
                     key = {item.id}
                     page = {item.id}
                     category = {item.category}

@@ -51,70 +51,70 @@ function DrawerCom() {
             anchor='left'
             className={cla.drawerContainer}
             >            <List>
-                <ListItem divider button component='a' href='./brazilianwwlwig'>
+                <ListItem divider button component='a' href='/brazilianwwlwig'>
                     <ListItemIcon>
                         <ListItemText >
                             Brazilian Wet n Wavy
                         </ListItemText>
                     </ListItemIcon>
                 </ListItem>   
-                <ListItem divider button component='a' href='./brazilianlacewig'>
+                <ListItem divider button component='a' href='/brazilianlacewig'>
                     <ListItemIcon>
                         <ListItemText>
                             Brazilian Lace Wig
                         </ListItemText>
                     </ListItemIcon>
                 </ListItem>   
-                <ListItem divider button component='a' href='./brazilianwig'>
+                <ListItem divider button component='a' href='/brazilianwig'>
                     <ListItemIcon>
                         <ListItemText>
                             Brazilian Wig
                         </ListItemText>
                     </ListItemIcon>
                 </ListItem>   
-                <ListItem divider button component='a' href='./lacewig'>
+                <ListItem divider button component='a' href='/lacewig'>
                     <ListItemIcon>
                         <ListItemText>
                             Lace Wig
                         </ListItemText>
                     </ListItemIcon>
                 </ListItem>   
-                <ListItem divider button component='a' href='./humanwig'>
+                <ListItem divider button component='a' href='/humanwig'>
                     <ListItemIcon>
                         <ListItemText>
                             Human Hair Wig
                         </ListItemText>
                     </ListItemIcon>
                 </ListItem>   
-                <ListItem divider button component='a' href='./greenwig'>
+                <ListItem divider button component='a' href='/greenwig'>
                     <ListItemIcon>
                         <ListItemText>
                             Green Wig
                         </ListItemText>
                     </ListItemIcon>
                 </ListItem>   
-                <ListItem divider button component='a' href='./wig'>
+                <ListItem divider button component='a' href='/wig'>
                     <ListItemIcon>
                         <ListItemText>
                            Wig
                         </ListItemText>
                     </ListItemIcon>
                 </ListItem>   
-                <ListItem divider button component='a' href='./popngo'>
+                <ListItem divider button component='a' href='/popngo'>
                     <ListItemIcon>
                         <ListItemText>
                             Pop n Go
                         </ListItemText>
                     </ListItemIcon>
                 </ListItem>   
-                <ListItem divider button component='a' href='./drawstring'>
+                <ListItem divider button component='a' href='/drawstring'>
                     <ListItemIcon>
                         <ListItemText>
                            Draw String
                         </ListItemText>
                     </ListItemIcon>
                 </ListItem>   
-                <ListItem divider button component='a' href='./dome'>
+                <ListItem divider button component='a' href='/dome'>
                     <ListItemIcon>
                         <ListItemText>
                             DOME

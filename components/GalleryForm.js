@@ -5,7 +5,7 @@ import Image from 'next/dist/client/image';
 import { Box, height } from '@mui/system';
 import { Link, stepClasses } from '@mui/material';
 
-<link rel="preconnect" href="https://fonts.googleapis.com"></link>
+
 
 const useStyles = makeStyles((theme) =>({
     root: {
@@ -90,7 +90,7 @@ function GalleryForm(props) {
           <Card className={cla.card}  >
            
           <Box className={cla.headbox}>
-          {/* <img src='https://sopranohair.com/wig/DESTINY2.png' alt='t' className={cla.avatar}/> */}
+         
           <Typography className={cla.headletter}>{props.category}</Typography>
           <Typography className={cla.headletter2}>Page {props.page}</Typography>
           </Box>
