@@ -1,6 +1,6 @@
 import React from 'react'
 import { Grid, makeStyles, Typography } from '@material-ui/core';
-import GalleryForm from './GalleryForm';
+import GalleryForm from '../components/GalleryForm';
 import Data from '../data/wig.json';
 
 const useStyles = makeStyles((theme) => ({

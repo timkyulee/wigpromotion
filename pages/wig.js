@@ -1,5 +1,5 @@
 import React from 'react'
-import Clacewig from '../components2/Cwig';
+import Cwig from '../components2/Cwig';
 import Navbar2 from '../components/Navbar2';
 import styles from '../styles/Home.module.css';
 function wig() {
@@ -7,10 +7,10 @@ function wig() {
         <div className={styles.container}>
              <main className={styles.main}>
             <Navbar2/>
-            <Clacewig /> 
+            <Cwig /> 
             </main>
         </div>
     )
 }
 
-export default wig
+export default wig;
