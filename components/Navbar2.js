@@ -94,7 +94,7 @@ export default function Navbar2({children}) {
 <DrawerCom />
    </>  : (
 <><div className={cla.logopart}>
-<a href='destinywig.info' className={cla.logo}>DESTINY Wig</a>
+<a href='' className={cla.logo}>DESTINY Wig</a>
 <p className={cla.sublogo}>PROMOTION, OCT 18-29 </p>
 </div>
 <div className={cla.menu}>
