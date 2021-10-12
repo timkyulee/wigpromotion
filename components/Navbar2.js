@@ -87,12 +87,12 @@ export default function Navbar2({children}) {
         <Toolbar>       
         
 {isMatch ?  < > <div>
-  <a herf='destinywig.info' className={cla.logosmall}>DESTINY Wig</a>
+  <a href='destinywig.info' className={cla.logosmall}>DESTINY Wig</a>
 <p className={cla.sublogosmall}>PROMOTION, OCT 18-29 </p></div>
 <DrawerCom />
    </>  : (
 <><div className={cla.logopart}>
-<a herf='destinywig.info' className={cla.logo}>DESTINY Wig</a>
+<a href='destinywig.info' className={cla.logo}>DESTINY Wig</a>
 <p className={cla.sublogo}>PROMOTION, OCT 18-29 </p>
 </div>
 <div className={cla.menu}>
