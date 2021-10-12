@@ -22,7 +22,7 @@ const useStyles = makeStyles({
   
       menuIconToggle: {
         fontSize: '3rem',
-        color: '#3a3a3a'
+        color: '#fff'
       },
       menuIconContainer: {
           marginLeft: '25px'

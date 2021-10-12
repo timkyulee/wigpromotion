@@ -44,7 +44,35 @@ tabsletter: {
   fontFamily: 'arial',
   fontSize: '1rem',
   marginTop: '10px'
-}
+},
+logo: {
+  fontSize: '30px',
+  fontFamily: 'arial',
+  color: '#fff',
+  marginRight: '15px'
+},
+logopart: {
+  display: 'flex',
+  flexDirection: 'column'
+},
+sublogo: {
+  margin: '0',
+  color: '#fff',
+  fontWeight: 'bold'
+},
+logosmall: {
+  fontSize: '28px',
+  fontFamily: 'arial',
+  color: '#fff',
+  marginRight: '15px'
+},
+sublogosmall: {
+  fontSize: '15px',
+  margin: '0',
+  color: '#fff',
+  fontWeight: 'bold'
+},
+
 });
 
 export default function Navbar2({children}) {
@@ -55,13 +83,18 @@ export default function Navbar2({children}) {
   return (
   
     <Paper sx={{ flexGrow: 1}} >
-      <AppBar style={{ background:'#fff', opacity:'0.95'}} >
+      <AppBar style={{ background:'#424242', opacity:'0.95'}} >
         <Toolbar>       
         
-{isMatch ?  <> <img src='https://sopranohair.com/wig/DESTINYLOGO.png' width={210} height={30} alt='destinylog'/>
-  <DrawerCom /> </>: (
-<>
-<img src='https://sopranohair.com/wig/DESTINYLOGO-B.png' width={324} height={47} alt='destinylog-b'/>
+{isMatch ?  < > <div>
+  <a herf='destinywig.info' className={cla.logosmall}>DESTINY Wig</a>
+<p className={cla.sublogosmall}>PROMOTION, OCT 18-29 </p></div>
+<DrawerCom />
+   </>  : (
+<><div className={cla.logopart}>
+<a herf='destinywig.info' className={cla.logo}>DESTINY Wig</a>
+<p className={cla.sublogo}>PROMOTION, OCT 18-29 </p>
+</div>
 <div className={cla.menu}>
   <Stack direction='row' spacing={2}>
     <Button variant='contained' color='secondary' href="/brazilianwwlwig" >Brazilian Wet n Wavy</Button>

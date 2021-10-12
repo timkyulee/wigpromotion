@@ -1,17 +1,6 @@
 {
   "/_app": "pages/_app.js",
-  "/brazilianlacewig": "pages/brazilianlacewig.html",
-  "/brazilianwig": "pages/brazilianwig.html",
-  "/brazilianwwlwig": "pages/brazilianwwlwig.html",
-  "/dome": "pages/dome.html",
-  "/drawstring": "pages/drawstring.html",
-  "/greenwig": "pages/greenwig.html",
-  "/humanwig": "pages/humanwig.html",
-  "/": "pages/index.html",
-  "/lacewig": "pages/lacewig.html",
-  "/popngo": "pages/popngo.html",
-  "/wig": "pages/wig.html",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/404": "pages/404.html"
+  "/": "pages/index.js"
 }
