@@ -19,11 +19,12 @@ boxback: {
   backgroundColor: '#ccc'
 },
 title: {
-  fontSize: '30px',
+  fontSize: '25px',
+  fontFamily: 'arial',
   color: '#fff'
 },
 title2: {
-  fontSize: '18px',
+  fontSize: '14px',
   color: '#fff',
   textAlign: 'center',
   margin:'0'
@@ -37,8 +38,12 @@ title4: {
   color: '#fff',
   textAlign: 'center',
   margin:'0'
+},
+tabsletter: {
+  fontFamily: 'arial',
+  fontSize: '1rem',
+  marginTop: '10px'
 }
-
 });
 
 export default function Navbar2() {
@@ -54,9 +59,9 @@ export default function Navbar2() {
   return (
   
     <Paper sx={{ flexGrow: 1}} style={{background: '#ccc'}}>
-      <AppBar style={{ background: '#2E3B55' }} >
+      <AppBar style={{ background: '#424242' }} >
         <Toolbar>
-        {/* <img src='https://sopranohair.com/wig/DESTINYLOGO1.png' alt='DESTINYLOGO' srcSet=''/> */}
+        {/* <img src='https://sopranohair.com/wig/DESTINY2.png' alt='DESTINYLOGO' srcSet=''/> */}
        { isMatch ? 
           (<Box>
           <Typography className={cla.title3} >Destiny Wig Promotion </Typography>
@@ -76,16 +81,16 @@ export default function Navbar2() {
       indicatortColor='secondary'
       aria-label="secondary tabs example" 
       value={value}>
-<tab label='Brazilian Wet n Wavy'><a href="#" className={cla.menuitem}>Brazilian Wet n Wavy</a></tab>
-<tab label='Brazilian Wet n Wavy'><a href="#" className={cla.menuitem}>Brazilian Lace Wig</a></tab>
-<tab label='Brazilian Wet n Wavy'><a href="#" className={cla.menuitem}>Brazilian Wig</a></tab>
-<tab label='Brazilian Wet n Wavy'><a href="#" className={cla.menuitem}>Lace Wig</a></tab>
-<tab label='Brazilian Wet n Wavy'><a href="#" className={cla.menuitem}>Human Hair Wig</a></tab>
-<tab label='Brazilian Wet n Wavy'><a href="#" className={cla.menuitem}>Green Wig</a></tab>
-<tab label='Brazilian Wet n Wavy'><a href="#" className={cla.menuitem}>Wig</a></tab>
-<tab label='Brazilian Wet n Wavy'><a href="#" className={cla.menuitem}>Pop n Go</a></tab>
-<tab label='Brazilian Wet n Wavy'><a href="#" className={cla.menuitem}>Draw String</a></tab>
-<tab label='Brazilian Wet n Wavy'><a href="#" className={cla.menuitem}>Dome</a></tab>
+<tab label='Brazilian Wet n Wavy'><a href="./brazilianwwlwig" className={cla.menuitem}>Brazilian Wet n Wavy</a></tab>
+<tab label='Brazilian Lace Wig'><a href="./brazilianlacewig" className={cla.menuitem}>Brazilian Lace Wig</a></tab>
+<tab label='Brazilian Wig'><a href="./brazilianwig" className={cla.menuitem}>Brazilian Wig</a></tab>
+<tab label='Lace Wig'><a href="./lacewig" className={cla.menuitem}>Lace Wig</a></tab>
+<tab label='Human Hair Wig'><a href="./humanwig" className={cla.menuitem}>Human Hair Wig</a></tab>
+<tab label='Green Wig'><a href="./greenwig" className={cla.menuitem}>Green Wig</a></tab>
+<tab label='Wig'><a href="./wig" className={cla.menuitem}>Wig</a></tab>
+<tab label='Pop n Go'><a href="./popngo" className={cla.menuitem}>Pop n Go</a></tab>
+<tab label='Draw String'><a href="./drawstring" className={cla.menuitem}>Draw String</a></tab>
+<tab label='Dome'><a href="./dome" className={cla.menuitem}>Dome</a></tab>
 
 </Tabs>
 </div>

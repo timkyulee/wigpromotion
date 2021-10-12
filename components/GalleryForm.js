@@ -8,7 +8,7 @@ import Carousel, { CarouselItem} from '../comp/Carousel';
 import { Box, height } from '@mui/system';
 import { Link, stepClasses } from '@mui/material';
 
-
+<link rel="preconnect" href="https://fonts.googleapis.com"></link>
 
 const useStyles = makeStyles((theme) =>({
     root: {
@@ -50,7 +50,7 @@ const useStyles = makeStyles((theme) =>({
         color: 'red'
       },
       header: {
-        backgroundColor: '#e1d9d9',
+        backgroundColor: '#424242',
         fontWeight: 'bold'
       },
       headbox: {
@@ -62,6 +62,7 @@ const useStyles = makeStyles((theme) =>({
       headletter: {
         
         fontSize: '1rem',
+        fontFamily: 'arial',
         marginLeft: 'auto',
         marginTop: '5px',
         fontWeight: 'bolder',
@@ -90,31 +91,14 @@ function GalleryForm(props) {
     return (
         <div>
           <Card className={cla.card}  >
-              {/* <CardHeader
-               avatar={
-                   <Avatar aria-label='coutry' variant={'rounded'}  className={cla.avatar} src='https://sopranohair.com/wig/DESTINY.png'>
-                      P
-                   </Avatar>
-               }
-                title='Brazilian Wet & Wavy Full Lace Wig'
-               className={cla.header}
-            
-              >
-              </CardHeader> */}
-              {/* <CardMedia
-                  component="img"
-                  height="770px"
-                  image="https://sopranohair.com/wig/13-1.jpg"
-                  alt="green iguana"
-                  className={cla.img}
-                /> */}
+           
           <Box className={cla.headbox}>
-          {/* <img src='https://sopranohair.com/wig/DESTINY.png' alt='t' className={cla.avatar}/> */}
-          <Typography className={cla.headletter}>Brazilian Wet and Wavy Lace Wig</Typography>
-          <Typography className={cla.headletter2}>Page 25</Typography>
+          {/* <img src='https://sopranohair.com/wig/DESTINY2.png' alt='t' className={cla.avatar}/> */}
+          <Typography className={cla.headletter}>{props.category}</Typography>
+          <Typography className={cla.headletter2}>Page {props.page}</Typography>
           </Box>
-          <Link href='https://sopranohair.com/wig/13-1.jpg' target='_blank' >
-          <Image src='https://sopranohair.com/wig/13-1.jpg' alt='tt' width='580px' height='780px'objectFit='contain'/> </Link>
+          <Link href={props.img} target='_blank' >
+          <Image src={props.img} alt='tt' width='580px' height='780px'objectFit='contain'/> </Link>
            
           </Card>
         </div>

@@ -21,10 +21,9 @@ function GalleryAll() {
                 <GalleryForm  
                     Photo
                     key = {item.id}
+                    page = {item.id}
                     category = {item.category}
-                    country = {item.country}
                     img = {item.Image} 
-                    name = {item.name}
                 />
             ))}
         </Grid> 

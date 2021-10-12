@@ -53,70 +53,70 @@ function DrawerCom() {
                 <ListItem divider button>
                     <ListItemIcon>
                         <ListItemText>
-                            <Link href={'#'} underline='none'>Brazilian Wet n Wavy</Link>
+                            <Link href={'./brazilianwwlwig'} underline='none'>Brazilian Wet n Wavy</Link>
                         </ListItemText>
                     </ListItemIcon>
                 </ListItem>   
                 <ListItem divider button>
                     <ListItemIcon>
                         <ListItemText>
-                            <Link href={'#'} color='#fff'>Brazilian Lace Wig</Link>
+                            <Link href={'./brazilianlacewig'} color='#fff'>Brazilian Lace Wig</Link>
                         </ListItemText>
                     </ListItemIcon>
                 </ListItem>   
                 <ListItem divider button>
                     <ListItemIcon>
                         <ListItemText>
-                            <Link href={'#'}>Brazilian Wig</Link>
+                            <Link href={'./brazilianwig'}>Brazilian Wig</Link>
                         </ListItemText>
                     </ListItemIcon>
                 </ListItem>   
                 <ListItem divider button>
                     <ListItemIcon>
                         <ListItemText>
-                            <Link href={'#'}>Lace Wig</Link>
+                            <Link href={'./lacewig'}>Lace Wig</Link>
                         </ListItemText>
                     </ListItemIcon>
                 </ListItem>   
                 <ListItem divider button>
                     <ListItemIcon>
                         <ListItemText>
-                            <Link href={''}>Human Hair Wig</Link>
+                            <Link href={'./humanwig'}>Human Hair Wig</Link>
                         </ListItemText>
                     </ListItemIcon>
                 </ListItem>   
                 <ListItem divider button>
                     <ListItemIcon>
                         <ListItemText>
-                            <Link href={''}>Green Wig</Link>
+                            <Link href={'./greenwig'}>Green Wig</Link>
                         </ListItemText>
                     </ListItemIcon>
                 </ListItem>   
                 <ListItem divider button>
                     <ListItemIcon>
                         <ListItemText>
-                            <Link href={''}>Wig</Link>
+                            <Link href={'./wig'}>Wig</Link>
                         </ListItemText>
                     </ListItemIcon>
                 </ListItem>   
                 <ListItem divider button>
                     <ListItemIcon>
                         <ListItemText>
-                            <Link href={''}>Pop n Go</Link>
+                            <Link href={'./popngo'}>Pop n Go</Link>
                         </ListItemText>
                     </ListItemIcon>
                 </ListItem>   
                 <ListItem divider button>
                     <ListItemIcon>
                         <ListItemText>
-                            <Link href={''}>Draw String</Link>
+                            <Link href={'./drawstring'}>Draw String</Link>
                         </ListItemText>
                     </ListItemIcon>
                 </ListItem>   
                 <ListItem divider button>
                     <ListItemIcon>
                         <ListItemText>
-                            <Link href={''}>DOME</Link>
+                            <Link href={'./dome'}>DOME</Link>
                         </ListItemText>
                     </ListItemIcon>
                 </ListItem>   
