@@ -55,32 +55,25 @@ export default function Navbar2({children}) {
   return (
   
     <Paper sx={{ flexGrow: 1}} >
-      <AppBar style={{ background:'#f1f1f1'}} >
-        <Toolbar>
-       
-      
-          
-           
-         
-          
-          
+      <AppBar style={{ background:'#fff', opacity:'0.95'}} >
+        <Toolbar>       
         
-{isMatch ?  <> <img src='https://sopranohair.com/wig/DESTINYLOGO.png' width={200} height={30} alt='destinylog'/>
+{isMatch ?  <> <img src='https://sopranohair.com/wig/DESTINYLOGO.png' width={210} height={30} alt='destinylog'/>
   <DrawerCom /> </>: (
 <>
-<img src='https://sopranohair.com/wig/DESTINYLOGO-B1.png' width={324} height={47} alt='destinylog-b'/>
+<img src='https://sopranohair.com/wig/DESTINYLOGO-B.png' width={324} height={47} alt='destinylog-b'/>
 <div className={cla.menu}>
   <Stack direction='row' spacing={2}>
-    <Button variant='contained' color='info' href="/brazilianwwlwig" >Brazilian Wet n Wavy</Button>
-    <Button variant='contained' color='info' href="/brazilianlacewig" >Brazilian Lace Wig</Button>
-    <Button variant='contained' color='info' href="/brazilianwig" >Brazilian Wig</Button>
-    <Button variant='contained' color='info' href="/lacewig" >Lace Wig</Button>
-    <Button variant='contained' color='info' href="/humanwig" >Human Hair Wig</Button>
-    <Button variant='contained' color='info' href="/greenwig" >Green Wig</Button>
-    <Button variant='contained' color='info' href="/wig" >Wig</Button>
-    <Button variant='contained' color='info' href="/popngo" >Pop n Go</Button>
-    <Button variant='contained' color='info' href="/drawstring" >Draw String</Button>
-    <Button variant='contained' color='info' href="/dome" >Dome</Button>
+    <Button variant='contained' color='secondary' href="/brazilianwwlwig" >Brazilian Wet n Wavy</Button>
+    <Button variant='contained' color='secondary' href="/brazilianlacewig" >Brazilian Lace Wig</Button>
+    <Button variant='contained' color='secondary' href="/brazilianwig" >Brazilian Wig</Button>
+    <Button variant='contained' color='secondary' href="/lacewig" >Lace Wig</Button>
+    <Button variant='contained' color='secondary' href="/humanwig" >Human Hair Wig</Button>
+    <Button variant='contained' color='secondary' href="/greenwig" >Green Wig</Button>
+    <Button variant='contained' color='secondary' href="/wig" >Wig</Button>
+    <Button variant='contained' color='secondary' href="/popngo" >Pop n Go</Button>
+    <Button variant='contained' color='secondary' href="/drawstring" >Draw String</Button>
+    <Button variant='contained' color='secondary' href="/dome" >Dome</Button>
   
   </Stack>
 {children}
