@@ -2,9 +2,6 @@ import { Card, CardContent, CardHeader, CardActions, Avatar, IconButton, Typogra
 import { makeStyles } from '@material-ui/core';
 import React from 'react';
 import Image from 'next/dist/client/image';
-import InstagramIcon from '@material-ui/icons/Instagram';
-import FacebookIcon from '@material-ui/icons/Facebook';
-import Carousel, { CarouselItem} from '../comp/Carousel';
 import { Box, height } from '@mui/system';
 import { Link, stepClasses } from '@mui/material';
 

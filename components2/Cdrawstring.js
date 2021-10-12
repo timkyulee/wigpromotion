@@ -1,7 +1,7 @@
 import React from 'react'
 import { Grid, makeStyles, Typography } from '@material-ui/core';
-import GalleryForm from './GalleryForm';
-import Data from '../data/galleryData.json';
+import GalleryForm from '../components/GalleryForm';
+import Data from '../data/drawstring.json';
 
 const useStyles = makeStyles((theme) => ({
     root: {

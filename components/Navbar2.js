@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { AppBar, Menu, Tab, Tabs, Toolbar, Typography } from '@mui/material';
+import { AppBar, Button, Menu, Stack, Tab, Tabs, Toolbar, Typography } from '@mui/material';
 import { useMediaQuery, useTheme, makeStyles, Paper, Link, MenuItem } from '@material-ui/core';
 import DrawerCom from './DrawerCom';
 import { Box, color, typography } from '@mui/system';
@@ -21,21 +21,21 @@ boxback: {
 title: {
   fontSize: '25px',
   fontFamily: 'arial',
-  color: '#fff'
+  color: '#3a3a3a'
 },
 title2: {
   fontSize: '14px',
-  color: '#fff',
+  color: '#3a3a3a',
   textAlign: 'center',
   margin:'0'
 },
 title3: {
   fontSize: '20px',
-  color: '#fff'
+  color: '#3a3a3a'
 },
 title4: {
   fontSize: '15px',
-  color: '#fff',
+  color: '#3a3a3a',
   textAlign: 'center',
   margin:'0'
 },
@@ -46,53 +46,46 @@ tabsletter: {
 }
 });
 
-export default function Navbar2() {
+export default function Navbar2({children}) {
   const cla = useStyle();
-  const [ value, setValue] = useState(0);
-  
-
-  const handleClickTab = (e, newValue) => {
-    setValue(newValue);
-  }
+ 
  const theme = useTheme();
  const isMatch = useMediaQuery(theme.breakpoints.down('md')); 
   return (
   
-    <Paper sx={{ flexGrow: 1}} style={{background: '#ccc'}}>
-      <AppBar style={{ background: '#424242' }} >
+    <Paper sx={{ flexGrow: 1}} >
+      <AppBar style={{ background:'#f1f1f1'}} >
         <Toolbar>
-        {/* <img src='https://sopranohair.com/wig/DESTINY2.png' alt='DESTINYLOGO' srcSet=''/> */}
+       
        { isMatch ? 
           (<Box>
-          <Typography className={cla.title3} >Destiny Wig Promotion </Typography>
-          <Typography className={cla.title4}>Beauty Elements(Oct 18 - 29 2021) </Typography>
+             <img src='https://sopranohair.com/wig/DESTINYLOGO.png' alt='DESTINYLOGO' srcSet=''/>
+          {/* <Typography className={cla.title3} >Destiny Wig Promotion </Typography>
+          <Typography className={cla.title4}>Beauty Elements(Oct 18 - 29 2021) </Typography> */}
           </Box>)
          : 
         (<Box>
-        <Typography className={cla.title} >Destiny Wig Promotion </Typography>
-        <Typography className={cla.title2}>Beauty Elements(Oct 18 - 29 2021) </Typography>
+           <img src='https://sopranohair.com/wig/DESTINYLOGO-B1.png' alt='DESTINYLOGO' srcSet=''/>
+        {/* <Typography className={cla.title} >Destiny Wig Promotion </Typography>
+        <Typography className={cla.title2}>Beauty Elements(Oct 18 - 29 2021) </Typography> */}
         </Box> )}
 {isMatch ? <DrawerCom /> : (
 <>
 <div className={cla.menu}>
-<Tabs
-      className={cla.tabsletter}
-      onChange={handleClickTab} 
-      indicatortColor='secondary'
-      aria-label="secondary tabs example" 
-      value={value}>
-<tab label='Brazilian Wet n Wavy'><a href="./brazilianwwlwig" className={cla.menuitem}>Brazilian Wet n Wavy</a></tab>
-<tab label='Brazilian Lace Wig'><a href="./brazilianlacewig" className={cla.menuitem}>Brazilian Lace Wig</a></tab>
-<tab label='Brazilian Wig'><a href="./brazilianwig" className={cla.menuitem}>Brazilian Wig</a></tab>
-<tab label='Lace Wig'><a href="./lacewig" className={cla.menuitem}>Lace Wig</a></tab>
-<tab label='Human Hair Wig'><a href="./humanwig" className={cla.menuitem}>Human Hair Wig</a></tab>
-<tab label='Green Wig'><a href="./greenwig" className={cla.menuitem}>Green Wig</a></tab>
-<tab label='Wig'><a href="./wig" className={cla.menuitem}>Wig</a></tab>
-<tab label='Pop n Go'><a href="./popngo" className={cla.menuitem}>Pop n Go</a></tab>
-<tab label='Draw String'><a href="./drawstring" className={cla.menuitem}>Draw String</a></tab>
-<tab label='Dome'><a href="./dome" className={cla.menuitem}>Dome</a></tab>
-
-</Tabs>
+  <Stack direction='row' spacing={2}>
+    <Button variant='contained' color='info' href="./brazilianwwlwig" >Brazilian Wet n Wavy</Button>
+    <Button variant='contained' color='info' href="./brazilianlacewig" >Brazilian Lace Wig</Button>
+    <Button variant='contained' color='info' href="./brazilianwig" >Brazilian Wig</Button>
+    <Button variant='contained' color='info' href="./lacewig" >Lace Wig</Button>
+    <Button variant='contained' color='info' href="./humanwig" >Human Hair Wig</Button>
+    <Button variant='contained' color='info' href="./greenwig" >Green Wig</Button>
+    <Button variant='contained' color='info' href="./wig" >Wig</Button>
+    <Button variant='contained' color='info' href="./popngo" >Pop n Go</Button>
+    <Button variant='contained' color='info' href="./drawstring" >Draw String</Button>
+    <Button variant='contained' color='info' href="./dome" >Dome</Button>
+  
+  </Stack>
+{children}
 </div>
 </>
 )}

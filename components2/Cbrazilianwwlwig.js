@@ -1,12 +1,14 @@
 import React from 'react'
-import { Grid, makeStyles, Typography } from '@material-ui/core';
-import GalleryForm from './GalleryForm';
-import Data from '../data/galleryData.json';
+import { Grid, makeStyles } from '@material-ui/core';
+import GalleryForm from '../components/GalleryForm';
+import Data from '../data/brazilianwwlwig.json';
 
 const useStyles = makeStyles((theme) => ({
     root: {
         display: 'flex',
         flexWrap: 'wrap',
+        margin: '0',
+        padding: '0'
     },  
 }))
 

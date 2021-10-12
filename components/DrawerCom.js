@@ -3,9 +3,9 @@ import MenuIcon from '@material-ui/icons/Menu';
 import React from 'react';
 import { useState } from 'react';
 import Link from 'next/link';
-import { IconButton } from '@mui/material';
+import { IconButton, ListItemButton } from '@mui/material';
 import { ThemeProvider, createMuiTheme } from '@material-ui/core/styles';
-import { height } from '@mui/system';
+
 
 
 
@@ -22,7 +22,7 @@ const useStyles = makeStyles({
   
       menuIconToggle: {
         fontSize: '3rem',
-        color: '#fff'
+        color: '#3a3a3a'
       },
       menuIconContainer: {
           marginLeft: '25px'
@@ -37,7 +37,8 @@ function DrawerCom() {
     const cla = useStyles();
     const theme = createMuiTheme({
         palette: {
-            type: 'dark'
+            type: 'dark',
+            color: 'white'
         }
     })
     return (
@@ -50,73 +51,73 @@ function DrawerCom() {
             anchor='left'
             className={cla.drawerContainer}
             >            <List>
-                <ListItem divider button>
+                <ListItem divider button component='a' href='./brazilianwwlwig'>
                     <ListItemIcon>
-                        <ListItemText>
-                            <Link href={'./brazilianwwlwig'} underline='none'>Brazilian Wet n Wavy</Link>
+                        <ListItemText >
+                            Brazilian Wet n Wavy
                         </ListItemText>
                     </ListItemIcon>
                 </ListItem>   
-                <ListItem divider button>
+                <ListItem divider button component='a' href='./brazilianlacewig'>
                     <ListItemIcon>
                         <ListItemText>
-                            <Link href={'./brazilianlacewig'} color='#fff'>Brazilian Lace Wig</Link>
+                            Brazilian Lace Wig
                         </ListItemText>
                     </ListItemIcon>
                 </ListItem>   
-                <ListItem divider button>
+                <ListItem divider button component='a' href='./brazilianwig'>
                     <ListItemIcon>
                         <ListItemText>
-                            <Link href={'./brazilianwig'}>Brazilian Wig</Link>
+                            Brazilian Wig
                         </ListItemText>
                     </ListItemIcon>
                 </ListItem>   
-                <ListItem divider button>
+                <ListItem divider button component='a' href='./lacewig'>
                     <ListItemIcon>
                         <ListItemText>
-                            <Link href={'./lacewig'}>Lace Wig</Link>
+                            Lace Wig
                         </ListItemText>
                     </ListItemIcon>
                 </ListItem>   
-                <ListItem divider button>
+                <ListItem divider button component='a' href='./humanwig'>
                     <ListItemIcon>
                         <ListItemText>
-                            <Link href={'./humanwig'}>Human Hair Wig</Link>
+                            Human Hair Wig
                         </ListItemText>
                     </ListItemIcon>
                 </ListItem>   
-                <ListItem divider button>
+                <ListItem divider button component='a' href='./greenwig'>
                     <ListItemIcon>
                         <ListItemText>
-                            <Link href={'./greenwig'}>Green Wig</Link>
+                            Green Wig
                         </ListItemText>
                     </ListItemIcon>
                 </ListItem>   
-                <ListItem divider button>
+                <ListItem divider button component='a' href='./wig'>
                     <ListItemIcon>
                         <ListItemText>
-                            <Link href={'./wig'}>Wig</Link>
+                           Wig
                         </ListItemText>
                     </ListItemIcon>
                 </ListItem>   
-                <ListItem divider button>
+                <ListItem divider button component='a' href='./popngo'>
                     <ListItemIcon>
                         <ListItemText>
-                            <Link href={'./popngo'}>Pop n Go</Link>
+                            Pop n Go
                         </ListItemText>
                     </ListItemIcon>
                 </ListItem>   
-                <ListItem divider button>
+                <ListItem divider button component='a' href='./drawstring'>
                     <ListItemIcon>
                         <ListItemText>
-                            <Link href={'./drawstring'}>Draw String</Link>
+                           Draw String
                         </ListItemText>
                     </ListItemIcon>
                 </ListItem>   
-                <ListItem divider button>
+                <ListItem divider button component='a' href='./dome'>
                     <ListItemIcon>
                         <ListItemText>
-                            <Link href={'./dome'}>DOME</Link>
+                            DOME
                         </ListItemText>
                     </ListItemIcon>
                 </ListItem>   
