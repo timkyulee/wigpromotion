@@ -1,5 +1,15 @@
 [
     {
+        "id": "39",
+        "category": "Green Wig",
+        "Image": "https://sopranohair.com/wig/39.jpg"
+    },
+    {
+        "id": "40",
+        "category": "Green Wig",
+        "Image": "https://sopranohair.com/wig/40.jpg"
+    },
+    {
         "id": "41",
         "category": "Green Wig",
         "Image": "https://sopranohair.com/wig/41.jpg"
@@ -8,15 +18,5 @@
         "id": "42",
         "category": "Green Wig",
         "Image": "https://sopranohair.com/wig/42.jpg"
-    },
-    {
-        "id": "43",
-        "category": "Green Wig",
-        "Image": "https://sopranohair.com/wig/43.jpg"
-    },
-    {
-        "id": "44",
-        "category": "Green Wig",
-        "Image": "https://sopranohair.com/wig/44.jpg"
     }
 ]

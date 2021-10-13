@@ -1,27 +1,37 @@
 [
     {
-        "id": "18",
+        "id": "16",
         "category": "Human Hair Lace Wig",
+        "Image": "https://sopranohair.com/wig/16.jpg"
+    },
+    {
+        "id": "17",
+        "category": "Human Blend 360 Wig",
+        "Image": "https://sopranohair.com/wig/17.jpg"
+    },
+    {
+        "id": "18",
+        "category": "Human Blend 360 Wig",
         "Image": "https://sopranohair.com/wig/18.jpg"
     },
     {
         "id": "19",
-        "category": "Human Blend 360 Wig",
+        "category": "Wheres the Lace",
         "Image": "https://sopranohair.com/wig/19.jpg"
     },
     {
         "id": "20",
-        "category": "Human Blend 360 Wig",
+        "category": "Wheres the Lace",
         "Image": "https://sopranohair.com/wig/20.jpg"
     },
     {
         "id": "21",
-        "category": "Wheres the Lace",
+        "category": "Green Lace Wig",
         "Image": "https://sopranohair.com/wig/21.jpg"
     },
     {
         "id": "22",
-        "category": "Wheres the Lace",
+        "category": "Green Lace Wig",
         "Image": "https://sopranohair.com/wig/22.jpg"
     },
     {
@@ -31,12 +41,12 @@
     },
     {
         "id": "24",
-        "category": "Green Lace Wig",
+        "category": "Lace Braid Wig",
         "Image": "https://sopranohair.com/wig/24.jpg"
     },
     {
         "id": "25",
-        "category": "Green Lace Wig",
+        "category": "Lace Braid Wig",
         "Image": "https://sopranohair.com/wig/25.jpg"
     },
     {
@@ -51,12 +61,12 @@
     },
     {
         "id": "28",
-        "category": "Lace Braid Wig",
+        "category": "Lace Wig",
         "Image": "https://sopranohair.com/wig/28.jpg"
     },
     {
         "id": "29",
-        "category": "Lace Braid Wig",
+        "category": "Lace Wig",
         "Image": "https://sopranohair.com/wig/29.jpg"
     },
     {
@@ -81,17 +91,7 @@
     },
     {
         "id": "34",
-        "category": "Lace Wig",
-        "Image": "https://sopranohair.com/wig/34.jpg"
-    },
-    {
-        "id": "35",
-        "category": "Lace Wig",
-        "Image": "https://sopranohair.com/wig/35.jpg"
-    },
-    {
-        "id": "36",
         "category": "Natural HairLine Lace Wig",
-        "Image": "https://sopranohair.com/wig/36.jpg"
+        "Image": "https://sopranohair.com/wig/34.jpg"
     }
 ]

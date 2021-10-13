@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <div >
        <NextSeo
-      title="Destiny Wig Promotion 2021 Fall"
+      title="Wig Promotion 2021 Fall"
       description="Brazilian Lace Wig,Braid Wig,Human Hair Wig,Pony Tail,Lace Wig ."
       canonical="https://www.canonical.ie/"
       openGraph={{
