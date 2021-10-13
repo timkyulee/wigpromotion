@@ -72,9 +72,7 @@ link: {
 
 export default function Navbar2({children}) {
   
-  function clickHandler(e) {
-  
-  }
+ 
   const cla = useStyle();
  const theme = useTheme();
  const isMatch = useMediaQuery(theme.breakpoints.down('md')); 
@@ -95,7 +93,7 @@ export default function Navbar2({children}) {
 </div>
 <div className={cla.menu}>
   <Stack direction='row' spacing={2}>
-  <button className={cla.button} onClick={clickHandler}><a href="/brazilianwwlwig" className={cla.link}>Brazilian Wet n Wavy</a></button>
+  <button className={cla.button} ><a href="/brazilianwwlwig" className={cla.link}>Brazilian Wet n Wavy</a></button>
     <button className={cla.button} ><a  href="/brazilianlacewig" className={cla.link}>Brazilian Lace Wig</a></button>
     <button  className={cla.button}><a href="/brazilianwig" className={cla.link}>Brazilian Wig</a></button>
     <button  className={cla.button}><a href="/lacewig" className={cla.link}>Lace Wig</a></button>
