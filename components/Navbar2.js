@@ -3,42 +3,19 @@ import { AppBar, Button, Menu, Stack, Tab, Tabs, Toolbar, Typography } from '@mu
 import { useMediaQuery, useTheme, makeStyles, Paper, Link, MenuItem } from '@material-ui/core';
 import DrawerCom from './DrawerCom';
 import { Image } from 'next/image';
-import { Box, color, typography } from '@mui/system';
+import { Box, color, height, typography } from '@mui/system';
 
 
 const useStyle = makeStyles({
 menu: {
-  color: '#fff',
-  fontSize: '20px',
-  marginLeft: '5px',
-  marginTop: '8px'
+  
+  
 }, 
 menuitem: {
   marginLeft: '35px'
 },
 boxback: {
   backgroundColor: '#ccc'
-},
-title: {
-  fontSize: '25px',
-  fontFamily: 'arial',
-  color: '#3a3a3a'
-},
-title2: {
-  fontSize: '14px',
-  color: '#3a3a3a',
-  textAlign: 'center',
-  margin:'0'
-},
-title3: {
-  fontSize: '20px',
-  color: '#3a3a3a'
-},
-title4: {
-  fontSize: '15px',
-  color: '#3a3a3a',
-  textAlign: 'center',
-  margin:'0'
 },
 tabsletter: {
   fontFamily: 'arial',
@@ -74,12 +51,31 @@ sublogosmall: {
   color: '#fff',
   fontWeight: 'bold'
 },
-
+button: {
+  backgroundColor: '#7e7d7b', /* Green */
+  border: 'none',
+  color: 'white',
+  padding: '15px ',
+  textalign: 'center',
+  textDecoration: 'none',
+  display: 'inline-block',
+  fontSize: '16px',
+  height: '30px',
+  padding: '7px 20px',
+ borderRadius: '10px'
+},
+link: {
+  textDecoration: 'none',
+  color: 'white',
+}
 });
 
 export default function Navbar2({children}) {
+  
+  function clickHandler(e) {
+  
+  }
   const cla = useStyle();
- 
  const theme = useTheme();
  const isMatch = useMediaQuery(theme.breakpoints.down('md')); 
   return (
@@ -99,17 +95,16 @@ export default function Navbar2({children}) {
 </div>
 <div className={cla.menu}>
   <Stack direction='row' spacing={2}>
-    <Button variant='contained' color='secondary' href="/brazilianwwlwig" >Brazilian Wet n Wavy</Button>
-    <Button variant='contained' color='secondary' href="/brazilianlacewig" >Brazilian Lace Wig</Button>
-    <Button variant='contained' color='secondary' href="/brazilianwig" >Brazilian Wig</Button>
-    <Button variant='contained' color='secondary' href="/lacewig" >Lace Wig</Button>
-    <Button variant='contained' color='secondary' href="/humanwig" >Human Hair Wig</Button>
-    <Button variant='contained' color='secondary' href="/greenwig" >Green Wig</Button>
-    <Button variant='contained' color='secondary' href="/wig" >Wig</Button>
-    <Button variant='contained' color='secondary' href="/popngo" >Pop n Go</Button>
-    <Button variant='contained' color='secondary' href="/drawstring" >Draw String</Button>
-    <Button variant='contained' color='secondary' href="/dome" >Dome</Button>
-  
+  <button className={cla.button} onClick={clickHandler}><a href="/brazilianwwlwig" className={cla.link}>Brazilian Wet n Wavy</a></button>
+    <button className={cla.button} ><a  href="/brazilianlacewig" className={cla.link}>Brazilian Lace Wig</a></button>
+    <button  className={cla.button}><a href="/brazilianwig" className={cla.link}>Brazilian Wig</a></button>
+    <button  className={cla.button}><a href="/lacewig" className={cla.link}>Lace Wig</a></button>
+    <button  className={cla.button}><a href="/humanwig" className={cla.link}>Human Hair Wig</a></button>
+    <button  className={cla.button}><a href="/greenwig" className={cla.link}>Green Wig</a></button>
+    <button  className={cla.button}><a href="/wig" className={cla.link}>Wig</a></button>
+    <button  className={cla.button}><a href="/popngo"className={cla.link}>Pop n Go</a></button>
+    <button  className={cla.button}><a href="/drawstring" className={cla.link}>Draw String</a></button>
+    <button  className={cla.button}><a href="/dome" className={cla.link}>Dome</a></button>
   </Stack>
 {children}
 </div>
