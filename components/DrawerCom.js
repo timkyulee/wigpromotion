@@ -135,6 +135,7 @@ function DrawerCom() {
             <IconButton onClick={setOpenDrawer} className={cla.menuIconContainer}>
                 <MenuIcon className={cla.menuIconToggle}/>
             </IconButton>
+            Menu
         </div>   
     )
 }

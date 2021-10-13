@@ -24,10 +24,15 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/brazilianlacewig": [
+    "/brazilianwwlwig": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/brazilianlacewig.js"
+      "static/chunks/pages/brazilianwwlwig.js"
+    ],
+    "/rule": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/rule.js"
     ]
   },
   "ampFirstPages": []

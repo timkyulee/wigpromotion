@@ -69,6 +69,7 @@ link: {
 
 export default function Navbar2({children}) {
   
+
  
   const cla = useStyle();
  const theme = useTheme();
@@ -90,7 +91,7 @@ export default function Navbar2({children}) {
 </div>
 <div className={cla.menu}>
   <Stack direction='row' spacing={2}>
-  <button className={cla.button} ><Link href="/brazilianwwlwig" className={cla.link}>Brazilian Wet n Wavy</Link></button>
+    <button className={cla.button} value={'Brazilian Wig'}><Link href="/brazilianwwlwig" className={cla.link}>Brazilian Wet n Wavy</Link></button>
     <button className={cla.button} ><Link  href="/brazilianlacewig" className={cla.link}>Brazilian Lace Wig</Link></button>
     <button  className={cla.button}><Link href="/brazilianwig" className={cla.link}>Brazilian Wig</Link></button>
     <button  className={cla.button}><Link href="/lacewig" className={cla.link}>Lace Wig</Link></button>
@@ -103,7 +104,9 @@ export default function Navbar2({children}) {
     <button  className={cla.button}><Link href="/rule" className={cla.link}>RULE</Link></button>
   </Stack>
 {children}
+
 </div>
+
 </>
 )}
 

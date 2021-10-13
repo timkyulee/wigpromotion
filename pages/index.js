@@ -16,8 +16,8 @@ export default function Home() {
       canonical="https://www.canonical.ie/"
       openGraph={{
         url: 'https://destinywig.info',
-        title: 'Destiny Wig Promotion',
-        description: 'Destiny Wig Promotion 2021 Fall.',
+        title: 'Destiny Wig Promotion 2021 Fall',
+        description: 'Brazilian Lace Wig,Braid Wig,Human Hair Wig,Pony Tail,Lace Wig',
         images: [
           {
             url: 'https://sopranohair.com/wig/metaimage3.jpg',
