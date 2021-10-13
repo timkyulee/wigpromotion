@@ -11,8 +11,8 @@ export default function Home() {
   return (
     <div >
        <NextSeo
-      title="Destiny Wig Promotion"
-      description="Destiny Wig Promotion 2021 Fall."
+      title="Destiny Wig Promotion 2021 Fall"
+      description="Brazilian Lace Wig,Braid Wig,Human Hair Wig,Pony Tail,Lace Wig ."
       canonical="https://www.canonical.ie/"
       openGraph={{
         url: 'https://destinywig.info',
@@ -20,21 +20,21 @@ export default function Home() {
         description: 'Destiny Wig Promotion 2021 Fall.',
         images: [
           {
-            url: 'https://sopranohair.com/wig/metaimage.jpg',
+            url: 'https://sopranohair.com/wig/metaimage3.jpg',
             width: 250,
             height: 333,
             alt: 'Og Image Alt',
             type: 'image/jpeg',
           },
           {
-            url: 'https://sopranohair.com/wig/metaimage.jpg',
+            url: 'https://sopranohair.com/wig/metaimage3.jpg',
             width: 250,
             height: 333,
             alt: 'Og Image Alt Second',
             type: 'image/jpeg',
           },
-          { url: 'https://sopranohair.com/wig/metaimga.jpg' },
-          { url: 'https://sopranohair.com/wig/metaimga.jpg' },
+          { url: 'https://sopranohair.com/wig/metaimga3.jpg' },
+          { url: 'https://sopranohair.com/wig/metaimga3.jpg' },
         ],
         site_name: 'DestinyWig.info',
       }}

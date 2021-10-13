@@ -2,6 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/brazilianwwlwig": "pages/brazilianwwlwig.js",
-  "/rule": "pages/rule.js"
+  "/rule": "pages/rule.js",
+  "/brazilianlacewig": "pages/brazilianlacewig.js"
 }

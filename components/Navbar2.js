@@ -7,10 +7,7 @@ import { Box, color, height, typography } from '@mui/system';
 
 
 const useStyle = makeStyles({
-menu: {
-  
-  
-}, 
+
 menuitem: {
   marginLeft: '35px'
 },
@@ -52,7 +49,7 @@ sublogosmall: {
   fontWeight: 'bold'
 },
 button: {
-  backgroundColor: '#7e7d7b', /* Green */
+  backgroundColor: '#7e7d7b',
   border: 'none',
   color: 'white',
   padding: '15px ',
@@ -79,7 +76,7 @@ export default function Navbar2({children}) {
   return (
   
     <Paper sx={{ flexGrow: 1}} >
-      <AppBar style={{ background:'#424242', opacity:'0.95'}} >
+      <AppBar style={{ background:'#424242', opacity:'0.92'}} >
         <Toolbar>       
         
 {isMatch ?  < > <div>
