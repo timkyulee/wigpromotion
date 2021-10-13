@@ -20,14 +20,14 @@ export default function Home() {
         description: 'Destiny Wig Promotion 2021 Fall.',
         images: [
           {
-            url: 'https://sopranohair.com/wig/1sm.jpg',
+            url: 'https://sopranohair.com/wig/metaimage.jpg',
             width: 250,
             height: 333,
             alt: 'Og Image Alt',
             type: 'image/jpeg',
           },
           {
-            url: 'https://sopranohair.com/wig/1sm.jpg',
+            url: 'https://sopranohair.com/wig/metaimage.jpg',
             width: 250,
             height: 333,
             alt: 'Og Image Alt Second',

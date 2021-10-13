@@ -121,6 +121,13 @@ function DrawerCom() {
                         </ListItemText>
                     </ListItemIcon>
                 </ListItem>   
+                <ListItem divider button component='a' href='/rule'>
+                    <ListItemIcon>
+                        <ListItemText>
+                            Rule
+                        </ListItemText>
+                    </ListItemIcon>
+                </ListItem>   
             </List>  
             </Drawer>
             </Paper>

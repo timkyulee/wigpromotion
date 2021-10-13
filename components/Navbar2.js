@@ -83,12 +83,12 @@ export default function Navbar2({children}) {
         <Toolbar>       
         
 {isMatch ?  < > <div>
-  <a href='destinywig.info' className={cla.logosmall}>DESTINY Wig</a>
+  <a href='https://destinywig.info' className={cla.logosmall}>DESTINY Wig</a>
 <p className={cla.sublogosmall}>PROMOTION, OCT 18-29 </p></div>
 <DrawerCom />
    </>  : (
 <><div className={cla.logopart}>
-<a href='' className={cla.logo}>DESTINY Wig</a>
+<a href='https://destinywig.info' className={cla.logo}>DESTINY Wig</a>
 <p className={cla.sublogo}>PROMOTION, OCT 18-29 </p>
 </div>
 <div className={cla.menu}>
@@ -103,6 +103,7 @@ export default function Navbar2({children}) {
     <button  className={cla.button}><Link href="/popngo"className={cla.link}>Pop n Go</Link></button>
     <button  className={cla.button}><Link href="/drawstring" className={cla.link}>Draw String</Link></button>
     <button  className={cla.button}><Link href="/dome" className={cla.link}>Dome</Link></button>
+    <button  className={cla.button}><Link href="/rule" className={cla.link}>RULE</Link></button>
   </Stack>
 {children}
 </div>

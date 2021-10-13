@@ -1,7 +1,7 @@
 import React from 'react'
 import { Grid, makeStyles, Typography } from '@material-ui/core';
-import GalleryForm from './GalleryForm';
-import Data from '../data/galleryData.json';
+import GalleryForm from '../components/GalleryForm';
+import Data from '../data/cover.json';
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -11,7 +11,7 @@ const useStyles = makeStyles((theme) => ({
 }))
 
 
-function GalleryAll() {
+function Crule() {
     const cla = useStyles();
     return (
   
@@ -19,7 +19,7 @@ function GalleryAll() {
          <Grid className={cla.root}>
             {Data.map(item => (
                 <GalleryForm  
-                    
+                    Photo
                     key = {item.id}
                     page = {item.id}
                     category = {item.category}
@@ -31,4 +31,4 @@ function GalleryAll() {
     )
 }
 
-export default GalleryAll
+export default Crule;

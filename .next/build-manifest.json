@@ -29,10 +29,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/brazilianwwlwig.js"
     ],
-    "/next/dist/pages/_error": [
+    "/rule": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/next/dist/pages/_error.js"
+      "static/chunks/pages/rule.js"
     ]
   },
   "ampFirstPages": []
