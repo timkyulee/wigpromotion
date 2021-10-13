@@ -93,16 +93,16 @@ export default function Navbar2({children}) {
 </div>
 <div className={cla.menu}>
   <Stack direction='row' spacing={2}>
-  <button className={cla.button} ><a href="/brazilianwwlwig" className={cla.link}>Brazilian Wet n Wavy</a></button>
-    <button className={cla.button} ><a  href="/brazilianlacewig" className={cla.link}>Brazilian Lace Wig</a></button>
-    <button  className={cla.button}><a href="/brazilianwig" className={cla.link}>Brazilian Wig</a></button>
-    <button  className={cla.button}><a href="/lacewig" className={cla.link}>Lace Wig</a></button>
-    <button  className={cla.button}><a href="/humanwig" className={cla.link}>Human Hair Wig</a></button>
-    <button  className={cla.button}><a href="/greenwig" className={cla.link}>Green Wig</a></button>
-    <button  className={cla.button}><a href="/wig" className={cla.link}>Wig</a></button>
-    <button  className={cla.button}><a href="/popngo"className={cla.link}>Pop n Go</a></button>
-    <button  className={cla.button}><a href="/drawstring" className={cla.link}>Draw String</a></button>
-    <button  className={cla.button}><a href="/dome" className={cla.link}>Dome</a></button>
+  <button className={cla.button} ><Link href="/brazilianwwlwig" className={cla.link}>Brazilian Wet n Wavy</Link></button>
+    <button className={cla.button} ><Link  href="/brazilianlacewig" className={cla.link}>Brazilian Lace Wig</Link></button>
+    <button  className={cla.button}><Link href="/brazilianwig" className={cla.link}>Brazilian Wig</Link></button>
+    <button  className={cla.button}><Link href="/lacewig" className={cla.link}>Lace Wig</Link></button>
+    <button  className={cla.button}><Link href="/humanwig" className={cla.link}>Human Hair Wig</Link></button>
+    <button  className={cla.button}><Link href="/greenwig" className={cla.link}>Green Wig</Link></button>
+    <button  className={cla.button}><Link href="/wig" className={cla.link}>Wig</Link></button>
+    <button  className={cla.button}><Link href="/popngo"className={cla.link}>Pop n Go</Link></button>
+    <button  className={cla.button}><Link href="/drawstring" className={cla.link}>Draw String</Link></button>
+    <button  className={cla.button}><Link href="/dome" className={cla.link}>Dome</Link></button>
   </Stack>
 {children}
 </div>
